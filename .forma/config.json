@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "repository": "Webdog-Marketing/Gornik-Brzeszcze",
+  "root": "",
+  "framework": "Next.js · App Router",
+  "entry": "app/layout.js",
+  "publicDir": "public",
+  "siteUrl": "https://gornik-brzeszcze.vercel.app/",
+  "editorOrigin": "https://formacms.app",
+  "contentPath": "public/forma/content.json"
+}

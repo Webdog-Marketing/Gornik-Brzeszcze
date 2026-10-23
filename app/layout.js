@@ -1,5 +1,7 @@
 import './globals.css';
 import ClientLayout from '../components/ClientLayout';
+import FormaConnectorScript from "next/script";
+
 
 export const metadata = {
   title: 'KS Górnik Brzeszcze',
@@ -11,7 +13,9 @@ export default function RootLayout({ children }) {
     <html lang="pl">
       <body>
         <ClientLayout>{children}</ClientLayout>
-      </body>
+      
+<FormaConnectorScript id="forma-connector" data-forma-connector="1" src="https://formacms.app/visual-cms.js" strategy="afterInteractive" data-editor="https://formacms.app" data-content="/forma/content.json" />
+</body>
     </html>
   );
 }
