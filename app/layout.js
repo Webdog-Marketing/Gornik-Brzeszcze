@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <ClientLayout>{children}</ClientLayout>
       
-<FormaConnectorScript id="forma-connector" data-forma-connector="1" src="https://formacms.app/visual-cms.js" strategy="afterInteractive" data-editor="https://formacms.app" data-content="/forma/content.json" />
+<FormaConnectorScript id="forma-connector" data-forma-connector="1" src="https://formacms.app/visual-cms.js" strategy="afterInteractive" data-editor="https://formacms.app" data-content="/forma/content.json" data-live="https://formacms.app/api/content?site=EMeWf2TcRoyYFzdYstx3L3gsHDYPI2Jka-xNBT77vBo" />
 </body>
     </html>
   );

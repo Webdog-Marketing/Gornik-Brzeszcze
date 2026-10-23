@@ -7,5 +7,6 @@
   "publicDir": "public",
   "siteUrl": "https://gornik-brzeszcze.vercel.app/",
   "editorOrigin": "https://formacms.app",
-  "contentPath": "public/forma/content.json"
+  "contentPath": "public/forma/content.json",
+  "liveSiteId": "EMeWf2TcRoyYFzdYstx3L3gsHDYPI2Jka-xNBT77vBo"
 }
