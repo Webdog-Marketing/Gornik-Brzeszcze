@@ -34,7 +34,7 @@ export default function FixturesPage() {
                 <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', letterSpacing: 4, color: 'var(--grey)', textAlign: 'center', padding: '0 0.5rem' }}>VS</div>
                 <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '1rem' }}>{f.away}</div>
                 <div className="fixture-badge" style={{ textAlign: 'right' }}>
-                  <span style={{ fontSize: '0.7rem', fontFamily: 'var(--font-heading)', letterSpacing: 2, textTransform: 'uppercase', padding: '0.25rem 0.75rem', background: f.home === 'Górnik Brzeszcze' ? 'rgba(26,92,42,0.15)' : 'var(--dark-3)', color: f.home === 'Górnik Brzeszcze' ? 'var(--gold)' : 'var(--grey)', border: f.home === 'Górnik Brzeszcze' ? '1px solid var(--gold)' : 'none' }}>
+                  <span style={{ fontSize: '0.7rem', fontFamily: 'var(--font-heading)', letterSpacing: 2, textTransform: 'uppercase', padding: '0.25rem 0.75rem', background: f.home === 'Górnik Brzeszcze' ? 'rgba(26,117,74,0.15)' : 'var(--dark-3)', color: f.home === 'Górnik Brzeszcze' ? 'var(--gold)' : 'var(--grey)', border: f.home === 'Górnik Brzeszcze' ? '1px solid var(--gold)' : 'none' }}>
                     {f.home === 'Górnik Brzeszcze' ? tr.home : tr.away}
                   </span>
                 </div>

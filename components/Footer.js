@@ -15,6 +15,7 @@ export default function Footer() {
       <div className="container">
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '3rem', marginBottom: '3rem' }}>
           <div>
+            <img src="/crest.webp" alt="KS Górnik Brzeszcze" width="58" height="72" style={{ height: 72, width: 'auto', marginBottom: '1rem' }} />
             <div style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', letterSpacing: 2, marginBottom: '0.5rem' }}>
               GÓRNIK<br /><span style={{ color: 'var(--gold)' }}>BRZESZCZE</span>
             </div>
@@ -28,7 +29,7 @@ export default function Footer() {
           </div>
           <div>
             <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 3, fontSize: '0.75rem', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '1rem' }}>{tr.club_label}</div>
-            {[['/news', nav.news], ['/history', nav.history], ['/gallery', nav.gallery], ['/sponsors', nav.sponsors], ['/contact', nav.contact]].map(([href, label]) => (
+            {[['/news', nav.news], ['/history', nav.history], ['/100-years', lang === 'en' ? '100 years' : '100 lat'], ['/poland-lithuania-1993', lang === 'en' ? 'Poland v Lithuania 1993' : 'Polska – Litwa 1993'], ['/gallery', nav.gallery], ['/sponsors', nav.sponsors], ['/contact', nav.contact]].map(([href, label]) => (
               <Link key={href} href={href} style={{ display: 'block', color: 'var(--grey)', fontSize: '0.9rem', marginBottom: '0.4rem' }}>{label}</Link>
             ))}
           </div>
@@ -46,7 +47,7 @@ export default function Footer() {
         </div>
         <div style={{ borderTop: '1px solid var(--dark-3)', paddingTop: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
           <p style={{ color: 'var(--grey)', fontSize: '0.8rem' }}>© {new Date().getFullYear()} KS Górnik Brzeszcze. {tr.copyright}</p>
-          <p style={{ color: 'var(--dark-3)', fontSize: '0.8rem' }}>{tr.founded}</p>
+          <p style={{ color: 'var(--grey)', fontSize: '0.8rem' }}>{tr.founded}</p>
         </div>
       </div>
     </footer>

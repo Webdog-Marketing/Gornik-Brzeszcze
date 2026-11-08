@@ -47,14 +47,8 @@ export default function Navbar() {
         <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 70 }}>
           {/* Logo */}
           <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <div style={{
-              width: 44, height: 48,
-              background: 'linear-gradient(135deg, #1A5C2A 50%, #0A0A0A 50%)',
-              clipPath: 'polygon(50% 0%, 100% 15%, 100% 70%, 50% 100%, 0% 70%, 0% 15%)',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              fontSize: '1.1rem', fontFamily: 'var(--font-display)', color: '#C9A84C',
-              flexShrink: 0, outline: '2px solid #C9A84C', outlineOffset: '-4px',
-            }}>G</div>
+            <img src="/crest.webp" alt="KS Górnik Brzeszcze" width="38" height="48"
+              style={{ height: 48, width: 'auto', flexShrink: 0, filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.5))' }} />
             <div>
               <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', letterSpacing: 1, lineHeight: 1 }}>GÓRNIK</div>
               <div style={{ fontFamily: 'var(--font-heading)', fontSize: '0.65rem', letterSpacing: 3, color: 'var(--gold)', lineHeight: 1, marginTop: 2 }}>BRZESZCZE</div>

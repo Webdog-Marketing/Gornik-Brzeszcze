@@ -14,7 +14,7 @@ const results = [
 
 function getResult(home, away, scoreH, scoreA) {
   const isHome = home === 'Górnik Brzeszcze';
-  if (scoreH === scoreA) return { label: 'R', color: '#C9A84C', bg: 'rgba(201,168,76,0.1)' };
+  if (scoreH === scoreA) return { label: 'R', color: '#BFA163', bg: 'rgba(191,161,99,0.1)' };
   if ((isHome && scoreH > scoreA) || (!isHome && scoreA > scoreH)) return { label: 'W', color: '#27A847', bg: 'rgba(39,168,71,0.1)' };
   return { label: 'L', color: '#C8102E', bg: 'rgba(200,16,46,0.1)' };
 }
@@ -39,7 +39,7 @@ export default function ResultsPage() {
       <section style={{ background: 'var(--dark)', padding: '3rem 0' }}>
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))', gap: '1px', background: 'var(--dark-3)' }}>
-            {[[tr.played, results.length, 'var(--white)'], [tr.wins, wins, '#27A847'], [tr.draws, draws, '#C9A84C'], [tr.losses, losses, '#C8102E'], [tr.scored, goalsFor, 'var(--white)'], [tr.conceded, goalsAgainst, 'var(--grey)']].map(([label, value, color]) => (
+            {[[tr.played, results.length, 'var(--white)'], [tr.wins, wins, '#27A847'], [tr.draws, draws, '#BFA163'], [tr.losses, losses, '#C8102E'], [tr.scored, goalsFor, 'var(--white)'], [tr.conceded, goalsAgainst, 'var(--grey)']].map(([label, value, color]) => (
               <div key={label} style={{ background: 'var(--dark-2)', padding: '1.5rem 1rem', textAlign: 'center' }}>
                 <div style={{ fontFamily: 'var(--font-display)', fontSize: '2.5rem', color, lineHeight: 1 }}>{value}</div>
                 <div style={{ color: 'var(--grey)', fontSize: '0.7rem', fontFamily: 'var(--font-heading)', letterSpacing: 1, textTransform: 'uppercase', marginTop: '0.5rem' }}>{label}</div>

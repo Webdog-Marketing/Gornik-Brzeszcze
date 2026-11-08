@@ -30,7 +30,7 @@ const staff = [
   { name: 'Tomasz Baran', rolePl: 'Fizjoterapeuta', roleEn: 'Physiotherapist' },
 ];
 
-const posColors = { GK: '#C9A84C', DEF: '#2E86C8', MID: '#27A847', FWD: '#E8A020' };
+const posColors = { GK: '#BFA163', DEF: '#2E86C8', MID: '#27A847', FWD: '#E8A020' };
 
 export default function TeamPage() {
   const { lang, t } = useLang();

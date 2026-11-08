@@ -11,10 +11,11 @@ export default function HomePage() {
   return (
     <>
       <section style={{ minHeight: '100vh', background: 'var(--black)', display: 'flex', alignItems: 'center', position: 'relative', overflow: 'hidden' }}>
-        <div style={{ position: 'absolute', inset: 0, backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 40px, rgba(26,92,42,0.04) 40px, rgba(26,92,42,0.04) 80px)' }} />
-        <div style={{ position: 'absolute', right: 0, top: 0, bottom: 0, width: '45%', background: 'linear-gradient(135deg, #1A5C2A 0%, #0A0A0A 65%)', clipPath: 'polygon(15% 0, 100% 0, 100% 100%, 0% 100%)', opacity: 0.18 }} />
+        <div style={{ position: 'absolute', inset: 0, backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 40px, rgba(26,117,74,0.04) 40px, rgba(26,117,74,0.04) 80px)' }} />
+        <div style={{ position: 'absolute', right: 0, top: 0, bottom: 0, width: '45%', background: 'linear-gradient(135deg, #1A754A 0%, #0A0A0A 65%)', clipPath: 'polygon(15% 0, 100% 0, 100% 100%, 0% 100%)', opacity: 0.18 }} />
         <div style={{ position: 'absolute', left: 0, top: '20%', bottom: '20%', width: 3, background: 'linear-gradient(to bottom, transparent, var(--gold), transparent)' }} />
-        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
+        <img className="hero-crest" src="/crest.webp" alt="" aria-hidden="true" />
+        <div className="container" style={{ position: 'relative', zIndex: 2, width: '100%' }}>
           <div style={{ maxWidth: 750 }}>
             <div style={{ display: 'inline-block', background: 'var(--green)', border: '1px solid var(--gold)', fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '0.75rem', letterSpacing: '4px', textTransform: 'uppercase', padding: '0.4rem 1rem', marginBottom: '2rem', color: 'var(--gold)' }}>{tr.badge}</div>
             <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(4rem, 12vw, 10rem)', lineHeight: 0.88, letterSpacing: 2, marginBottom: '2rem' }}>
@@ -63,7 +64,7 @@ export default function HomePage() {
               <div style={{ fontFamily: 'var(--font-heading)', fontSize: '0.8rem', letterSpacing: 3, color: 'var(--gold)', textTransform: 'uppercase', marginBottom: '2rem' }}>{tr.match_date}</div>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '3rem', flexWrap: 'wrap' }}>
                 <div style={{ textAlign: 'center' }}>
-                  <div style={{ width: 80, height: 80, background: 'linear-gradient(135deg, var(--green) 50%, var(--black) 50%)', clipPath: 'polygon(50% 0%, 100% 15%, 100% 75%, 50% 100%, 0% 75%, 0% 15%)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-display)', fontSize: '1.5rem', color: 'var(--gold)', margin: '0 auto 1rem', outline: '2px solid var(--gold)', outlineOffset: '-6px' }}>G</div>
+                  <img src="/crest.webp" alt="KS Górnik Brzeszcze" width="78" height="100" style={{ height: 100, width: 'auto', margin: '0 auto 1rem' }} />
                   <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', letterSpacing: 2 }}>GÓRNIK BRZESZCZE</div>
                   <div style={{ color: 'var(--grey)', fontSize: '0.8rem', marginTop: '0.25rem' }}>{tr.home_team}</div>
                 </div>
@@ -106,7 +107,7 @@ export default function HomePage() {
       </section>
 
       <section style={{ background: 'var(--green)', padding: '6rem 0', position: 'relative', overflow: 'hidden', borderTop: '2px solid var(--gold-dark)', borderBottom: '2px solid var(--gold-dark)' }}>
-        <div style={{ position: 'absolute', inset: 0, backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 60px, rgba(201,168,76,0.05) 60px, rgba(201,168,76,0.05) 61px)' }} />
+        <div style={{ position: 'absolute', inset: 0, backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 60px, rgba(191,161,99,0.05) 60px, rgba(191,161,99,0.05) 61px)' }} />
         <div className="container" style={{ textAlign: 'center', position: 'relative' }}>
           <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 4, fontSize: '0.8rem', textTransform: 'uppercase', marginBottom: '1rem', color: 'var(--gold)' }}>{tr.cta_label}</div>
           <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2.5rem, 7vw, 5rem)', letterSpacing: 2, marginBottom: '1.5rem' }}>{tr.cta_title}</h2>

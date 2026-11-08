@@ -38,7 +38,7 @@ export default function GalleryPage() {
             {gallery.map((item, i) => (
               <div key={item.id} style={{ position: 'relative', overflow: 'hidden', cursor: 'pointer', aspectRatio: i === 0 || i === 4 ? '16/9' : '4/3', background: ['#1A1A1A','#1F1010','#101A1A','#1A1018','#101510'][i%5], border: '1px solid var(--dark-3)' }}>
                 <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: '0.5rem' }}>
-                  <div style={{ width: 60, height: 60, clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)', background: 'rgba(201,168,76,0.15)' }} />
+                  <div style={{ width: 60, height: 60, clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)', background: 'rgba(191,161,99,0.15)' }} />
                   <div style={{ color: 'var(--dark-3)', fontFamily: 'var(--font-display)', fontSize: '0.9rem', letterSpacing: 2 }}>FOTO</div>
                 </div>
                 <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,0,0,0.9) 0%, transparent 60%)', opacity: 0, transition: 'opacity 0.3s', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '1.5rem' }}

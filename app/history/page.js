@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import { useLang } from '../LanguageContext';
 
 
@@ -23,6 +24,25 @@ const timeline = {
     { year: '2023', title: 'Centenary', desc: 'The club celebrates 100 years since its official founding, with celebrations attended by fans and former players.' },
     { year: '2025', title: 'Today', desc: 'KS Górnik Brzeszcze runs three teams and an active youth academy.' },
   ],
+};
+
+const landmarks = {
+  pl: {
+    label: 'Najważniejsze mecze',
+    title: 'WIELKIE CHWILE NA STADIONIE',
+    cards: [
+      { href: '/100-years', score: '0 : 8', title: '100 lat klubu', text: 'Jubileuszowy mecz z Górnikiem Zabrze, 18 czerwca 2022 – i tradycja wizyt zabrzan od 1972 roku.', cta: 'Czytaj historię →' },
+      { href: '/poland-lithuania-1993', score: '1 : 1', title: 'Polska – Litwa 1993', text: 'Jedyny mecz reprezentacji Polski w Brzeszczach – 31 marca 1993, pierwsze spotkanie obu drużyn w historii.', cta: 'Czytaj historię →' },
+    ],
+  },
+  en: {
+    label: 'Landmark matches',
+    title: 'GREAT DAYS AT THE STADIUM',
+    cards: [
+      { href: '/100-years', score: '0 : 8', title: '100 years of the club', text: 'The centenary match against Górnik Zabrze on 18 June 2022 – and Zabrze’s tradition of visiting since 1972.', cta: 'Read the story →' },
+      { href: '/poland-lithuania-1993', score: '1 : 1', title: 'Poland v Lithuania 1993', text: 'The only Poland national-team match ever played in Brzeszcze – 31 March 1993, the first meeting of the two sides.', cta: 'Read the story →' },
+    ],
+  },
 };
 
 export default function HistoryPage() {
@@ -54,6 +74,22 @@ export default function HistoryPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="section" style={{ background: 'var(--dark)' }}>
+        <div className="container">
+          <div className="eyebrow">{landmarks[lang].label}</div>
+          <h2 className="block-title">{landmarks[lang].title}</h2>
+          <div className="landmark-grid">
+            {landmarks[lang].cards.map(card => (
+              <Link key={card.href} href={card.href} className="landmark-card">
+                <div className="landmark-score">{card.score}</div>
+                <h3>{card.title}</h3>
+                <p>{card.text}</p>
+                <span className="landmark-cta">{card.cta}</span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
