@@ -12,7 +12,7 @@ export default function Footer() {
 
 
   return (
-    <footer style={{ background: 'var(--dark)', borderTop: '1px solid var(--dark-3)', padding: '4rem 0 2rem' }}>
+    <footer className="gfx" style={{ background: 'var(--dark)', borderTop: '1px solid var(--dark-3)', padding: '4rem 0 2rem', '--gfx': "url('/graffiti/miasto.jpg')", '--gfx-size': 'auto 140%', '--gfx-pos': '100% 62%', '--gfx-o': 0.095, '--gfx-bg': 'var(--dark)', '--gfx-fade': '0%', '--gfx-mask': 'linear-gradient(90deg, transparent 0%, transparent 38%, #000 70%, #000 92%, transparent 100%)' }}>
       <div className="container">
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '3rem', marginBottom: '3rem' }}>
           <div>
