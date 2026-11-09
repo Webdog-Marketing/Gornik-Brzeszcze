@@ -51,7 +51,7 @@ export default function HistoryPage() {
   const tl = timeline[lang];
   return (
     <>
-      <div className="page-header">
+      <div className="page-header has-photo soft" style={{ '--ph': "url('/graffiti/gornik.jpg')", '--ph-size': 'auto 112%', '--ph-pos': '100% 50%' }}>
         <div className="container">
           <div className="subtitle">{tr.subtitle}</div>
           <h1>{tr.title}</h1>

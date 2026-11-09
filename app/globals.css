@@ -703,3 +703,20 @@ body::before {
 /* five-stat cards (players with a red card) get slightly tighter labels */
 .pcard-stats:has(div:nth-child(5)) span { letter-spacing: 0; font-size: 0.54rem; }
 .pcard-stats:has(div:nth-child(5)) b { font-size: 1.15rem; }
+
+/* =====================
+   GRAFFITI TEXTURES (mockup)
+   Tune the look with: --gfx-o (opacity), --gfx-pos, --gfx-size, --gfx-fade
+   ===================== */
+.gfx { position: relative; isolation: isolate; overflow: hidden; }
+.gfx::before { content: ''; position: absolute; inset: 0; z-index: -2; background-image: var(--gfx); background-repeat: no-repeat;
+  background-size: var(--gfx-size, cover); background-position: var(--gfx-pos, center); opacity: var(--gfx-o, 0.16);
+  -webkit-mask-image: var(--gfx-mask, none); mask-image: var(--gfx-mask, none); }
+.gfx::after { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background: linear-gradient(180deg, var(--gfx-bg, var(--black)) 0%, transparent var(--gfx-fade, 28%), transparent calc(100% - var(--gfx-fade, 28%)), var(--gfx-bg, var(--black)) 100%); }
+.gfx-layer { position: absolute; inset: 0; background: var(--gfx) center / cover no-repeat; mix-blend-mode: multiply; opacity: 0.55; pointer-events: none; }
+.page-header.has-photo.soft { background: #0A0A0A; }
+.page-header.has-photo.soft::before { content: ''; position: absolute; inset: 0; z-index: 0; background: var(--ph) var(--ph-pos, right center) / var(--ph-size, auto 100%) no-repeat; opacity: var(--ph-o, 0.85);
+  -webkit-mask-image: linear-gradient(90deg, transparent 30%, #000 68%, #000 90%, transparent 100%); mask-image: linear-gradient(90deg, transparent 30%, #000 68%, #000 90%, transparent 100%); }
+.page-header.has-photo.soft .container { position: relative; z-index: 1; }
+.gfx .landmark-card { background: rgba(16,19,16,0.74); backdrop-filter: blur(1.5px); }

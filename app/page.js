@@ -208,7 +208,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section" style={{ background: 'var(--dark)' }}>
+      <section className="section gfx" style={{ background: 'var(--dark)', '--gfx': "url('/graffiti/crest.jpg')", '--gfx-size': 'auto 150%', '--gfx-pos': '100% 32%', '--gfx-o': 0.3, '--gfx-bg': 'var(--dark)', '--gfx-fade': '14%', '--gfx-mask': 'linear-gradient(90deg, transparent 0%, transparent 30%, #000 62%)' }}>
         <div className="container">
           <div className="eyebrow">{c.storyLabel}</div>
           <h2 className="block-title">{c.storyTitle}</h2>
@@ -247,6 +247,7 @@ export default function HomePage() {
       )}
 
       <section style={{ background: 'var(--green)', padding: '6rem 0', position: 'relative', overflow: 'hidden', borderTop: '2px solid var(--gold-dark)', borderBottom: '2px solid var(--gold-dark)' }}>
+        <div className="gfx-layer" style={{ '--gfx': "url('/graffiti/gornik.jpg')" }} />
         <div style={{ position: 'absolute', inset: 0, backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 60px, rgba(191,161,99,0.05) 60px, rgba(191,161,99,0.05) 61px)' }} />
         <div className="container" style={{ textAlign: 'center', position: 'relative' }}>
           <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 4, fontSize: '0.8rem', textTransform: 'uppercase', marginBottom: '1rem', color: 'var(--gold)' }}>{tr.cta_label}</div>
