@@ -50,7 +50,7 @@ export const t = {
       facts: [
         ['Rok założenia', '1922', 'Klub powstał z inicjatywy górników kopalni Brzeszcze'],
         ['Stadion', 'Stadion Górnika', 'Przy ul. Sportowej w Brzeszczach'],
-        ['Barwy', 'Zielono-czarne', 'Kolory reprezentujące ducha górniczego'],
+        ['Barwy', 'Zielono-biało-czarne', 'Kolory reprezentujące ducha górniczego'],
         ['Zarząd', 'Zarząd KS Górnik', 'Walne zebranie członków wybiera władze klubu'],
       ],
       values_label: 'Co nas definiuje',
@@ -201,7 +201,7 @@ export const t = {
       facts: [
         ['Founded', '1922', 'Established by workers of the Brzeszcze coal mine'],
         ['Stadium', 'Górnik Stadium', 'On ul. Sportowa in Brzeszcze'],
-        ['Colours', 'Green & Black', 'Colours representing the spirit of the miners'],
+        ['Colours', 'Green, white & black', 'Colours representing the spirit of the miners'],
         ['Board', 'KS Górnik Board', 'The general assembly of members elects the club\'s governing body'],
       ],
       values_label: 'What defines us',

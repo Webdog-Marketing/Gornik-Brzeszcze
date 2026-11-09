@@ -1,88 +1,156 @@
 'use client';
 import { useLang } from '../LanguageContext';
+import { SQUAD, STAFF, TEAM_PHOTO, SEASON, YOUTH, PHOTOS, PAGE_PHOTOS } from '../data';
+import { playerStats, coverage } from '../stats';
 
+const T = {
+  pl: {
+    subtitle: 'Sezon ' + SEASON,
+    title: 'DRUŻYNA',
+    photoPh: 'Zdjęcie drużyny – wkrótce',
+    photoAlt: 'Zdjęcie całego klubu KS Górnik Brzeszcze',
+    photoCap: 'Cały klub: seniorzy, młodzież i najmłodsi zawodnicy.',
+    playersLabel: 'Pierwsza drużyna',
+    playersTitle: 'ZAWODNICY',
+    gk: 'Bramkarz',
+    noNumber: 'Numer wkrótce',
+    staffLabel: 'Sztab szkoleniowy',
+    staffTitle: 'TRENER I KIEROWNIK',
+    count: 'zawodników',
+    sApps: 'Mecze', sMins: 'Min.', sGoals: 'Gole', sYellow: 'ŻK', sRed: 'CK',
+    statsNote: (r, p) => r === p ? 'Statystyki sezonu 2026/27 ze wszystkich ' + p + ' meczów (dane MPZPN).' : 'Statystyki sezonu 2026/27 z ' + r + ' z ' + p + ' meczów (dane MPZPN).',
+    youthLabel: 'Akademia',
+    youthTitle: 'MŁODZIEŻ',
+    youthIntro: 'Od najmłodszych żaków po juniorów – nasze grupy młodzieżowe według roku urodzenia.',
+  },
+  en: {
+    subtitle: 'Season ' + SEASON,
+    title: 'THE TEAM',
+    photoPh: 'Team photo – coming soon',
+    photoAlt: 'KS Górnik Brzeszcze – the whole club',
+    photoCap: 'The whole club: seniors, youth and our youngest players.',
+    playersLabel: 'First team',
+    playersTitle: 'PLAYERS',
+    gk: 'Goalkeeper',
+    noNumber: 'Number TBC',
+    staffLabel: 'Coaching staff',
+    staffTitle: 'COACH & MANAGER',
+    count: 'players',
+    sApps: 'Apps', sMins: 'Mins', sGoals: 'Goals', sYellow: 'YC', sRed: 'RC',
+    statsNote: (r, p) => r === p ? 'Season 2026/27 statistics from all ' + p + ' matches (MPZPN data).' : 'Season 2026/27 statistics from ' + r + ' of ' + p + ' matches (MPZPN data).',
+    youthLabel: 'Academy',
+    youthTitle: 'YOUTH TEAMS',
+    youthIntro: 'From our youngest players up to the juniors – our youth groups by year of birth.',
+  },
+};
 
-const players = [
-  { num: 1, name: 'Marek Kowalski', pos: 'GK', age: 28 },
-  { num: 2, name: 'Tomasz Nowak', pos: 'DEF', age: 24 },
-  { num: 3, name: 'Piotr Wiśniewski', pos: 'DEF', age: 26 },
-  { num: 4, name: 'Łukasz Wójcik', pos: 'DEF', age: 22 },
-  { num: 5, name: 'Adam Kowalczyk', pos: 'DEF', age: 30 },
-  { num: 6, name: 'Michał Kamiński', pos: 'MID', age: 25 },
-  { num: 7, name: 'Jakub Lewandowski', pos: 'MID', age: 27 },
-  { num: 8, name: 'Paweł Zieliński', pos: 'MID', age: 23 },
-  { num: 9, name: 'Rafał Szymański', pos: 'FWD', age: 29 },
-  { num: 10, name: 'Krzysztof Woźniak', pos: 'MID', age: 26 },
-  { num: 11, name: 'Bartosz Dąbrowski', pos: 'FWD', age: 21 },
-  { num: 12, name: 'Sławomir Kozłowski', pos: 'GK', age: 22 },
-  { num: 14, name: 'Grzegorz Mazur', pos: 'DEF', age: 28 },
-  { num: 15, name: 'Marcin Krawczyk', pos: 'MID', age: 24 },
-  { num: 17, name: 'Dominik Piotrowicz', pos: 'FWD', age: 20 },
-  { num: 18, name: 'Artur Grabowski', pos: 'MID', age: 31 },
-  { num: 20, name: 'Wojciech Nowakowski', pos: 'FWD', age: 25 },
-  { num: 22, name: 'Sebastian Pawlak', pos: 'DEF', age: 23 },
-];
-
-const staff = [
-  { name: 'Andrzej Nowicki', rolePl: 'Trener główny', roleEn: 'Head coach' },
-  { name: 'Jerzy Malinowski', rolePl: 'Asystent trenera', roleEn: 'Assistant coach' },
-  { name: 'Krzysztof Lis', rolePl: 'Trener bramkarzy', roleEn: 'Goalkeeping coach' },
-  { name: 'Tomasz Baran', rolePl: 'Fizjoterapeuta', roleEn: 'Physiotherapist' },
-];
-
-const posColors = { GK: '#BFA163', DEF: '#2E86C8', MID: '#27A847', FWD: '#E8A020' };
+const initials = name => name.split(' ').map(w => w[0]).slice(0, 2).join('');
 
 export default function TeamPage() {
-  const { lang, t } = useLang();
-  const tr = t.team;
+  const { lang } = useLang();
+  const c = T[lang];
+  const youthPhotos = PHOTOS.filter(p => p.cat === 'youth');
   return (
     <>
-      <div className="page-header">
+      <div className="page-header has-photo" style={{ '--ph': "url('" + PAGE_PHOTOS.team + "')" }}>
         <div className="container">
-          <div className="subtitle">{tr.subtitle}</div>
-          <h1>{tr.title}</h1>
+          <div className="subtitle">{c.subtitle}</div>
+          <h1>{c.title}</h1>
         </div>
       </div>
+
+      <section className="section" style={{ paddingBottom: '2rem' }}>
+        <div className="container">
+          {TEAM_PHOTO
+            ? (
+              <figure className="photo-figure">
+                <img className="team-photo" src={TEAM_PHOTO} alt={c.photoAlt} />
+                <figcaption>{c.photoCap}</figcaption>
+              </figure>
+            )
+            : <div className="team-photo-ph">{c.photoPh}</div>}
+        </div>
+      </section>
+
       <section className="section">
         <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '3rem', flexWrap: 'wrap', gap: '1rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '1rem', marginBottom: '2.5rem' }}>
             <div>
-              <div style={{ color: 'var(--gold)', fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 4, fontSize: '0.75rem', textTransform: 'uppercase', marginBottom: '0.5rem' }}>{lang === 'en' ? 'First team' : 'Pierwsza drużyna'}</div>
-              <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2rem, 4vw, 3rem)', letterSpacing: 1 }}>{tr.players_title}</h2>
+              <div className="eyebrow">{c.playersLabel}</div>
+              <h2 className="block-title" style={{ marginBottom: 0 }}>{c.playersTitle}</h2>
             </div>
-            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-              {Object.entries(tr.positions).map(([key, label]) => (
-                <div key={key} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.8rem', fontFamily: 'var(--font-heading)', letterSpacing: 1 }}>
-                  <div style={{ width: 10, height: 10, background: posColors[key], borderRadius: '50%' }} />
-                  {label}
-                </div>
-              ))}
-            </div>
+            <div style={{ color: 'var(--grey)', fontFamily: 'var(--font-heading)', letterSpacing: 2, textTransform: 'uppercase', fontSize: '0.8rem' }}>{SQUAD.length} {c.count}</div>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
-            {players.map(p => (
-              <div key={p.num} style={{ background: 'var(--dark-2)', border: '1px solid var(--dark-3)', padding: '1.5rem', position: 'relative', overflow: 'hidden' }}>
-                <div style={{ position: 'absolute', top: 0, left: 0, bottom: 0, width: 3, background: posColors[p.pos] }} />
-                <div style={{ fontFamily: 'var(--font-display)', fontSize: '3rem', color: 'var(--dark-3)', lineHeight: 1, marginBottom: '1rem' }}>{p.num}</div>
-                <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '1.05rem', marginBottom: '0.3rem', lineHeight: 1.2 }}>{p.name}</div>
-                <div style={{ fontSize: '0.75rem', fontFamily: 'var(--font-heading)', letterSpacing: 2, color: posColors[p.pos], textTransform: 'uppercase' }}>{tr.positions[p.pos]}</div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--grey)', marginTop: '0.5rem' }}>{p.age} {tr.age}</div>
+          <p style={{ color: 'var(--grey)', fontSize: '0.85rem', margin: '-1.25rem 0 2rem' }}>{c.statsNote(coverage().recorded, coverage().played)}</p>
+
+          <div className="squad-grid">
+            {SQUAD.map(p => (
+              <div key={p.name} className="pcard">
+                <div className={'pcard-photo' + (p.photo ? '' : ' ph')}>
+                  {p.photo
+                    ? <img src={p.photo} alt={p.name} width="600" height="750" loading="lazy" />
+                    : <img className="crest" src="/crest.webp" alt="" aria-hidden="true" />}
+                  {p.no && <span className="pcard-no">{p.no}</span>}
+                </div>
+                <div className="pcard-body">
+                  <div className="pcard-name">{p.name}</div>
+                  {p.gk && <span className="pcard-tag">{c.gk}</span>}
+                  {!p.no && !p.gk && <span className="pcard-tag muted">{c.noNumber}</span>}
+                  {(() => { const st = playerStats(p.name); const red = st.second + st.red; return (
+                    <div className="pcard-stats">
+                      <div><b>{st.apps}</b><span>{c.sApps}</span></div>
+                      <div><b>{st.mins}</b><span>{c.sMins}</span></div>
+                      <div><b>{st.goals}</b><span>{c.sGoals}</span></div>
+                      <div><b>{st.yellow}</b><span>{c.sYellow}</span></div>
+                      {red > 0 && <div><b>{red}</b><span>{c.sRed}</span></div>}
+                    </div>); })()}
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
+
       <section className="section" style={{ background: 'var(--dark)' }}>
         <div className="container">
-          <div style={{ color: 'var(--gold)', fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 4, fontSize: '0.75rem', textTransform: 'uppercase', marginBottom: '0.5rem' }}>{tr.staff_label}</div>
-          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(2rem, 4vw, 3rem)', letterSpacing: 1, marginBottom: '3rem' }}>{tr.staff_title}</h2>
-          <div className="grid-4">
-            {staff.map(s => (
-              <div key={s.name} style={{ background: 'var(--dark-2)', border: '1px solid var(--dark-3)', padding: '2rem', textAlign: 'center' }}>
-                <div style={{ width: 70, height: 70, borderRadius: '50%', background: 'var(--dark-3)', margin: '0 auto 1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-display)', fontSize: '1.5rem', color: 'var(--gold)' }}>{s.name.charAt(0)}</div>
-                <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '1.05rem', marginBottom: '0.3rem' }}>{s.name}</div>
-                <div style={{ color: 'var(--gold)', fontSize: '0.75rem', fontFamily: 'var(--font-heading)', letterSpacing: 2, textTransform: 'uppercase' }}>{lang === 'en' ? s.roleEn : s.rolePl}</div>
+          <div className="eyebrow">{c.staffLabel}</div>
+          <h2 className="block-title">{c.staffTitle}</h2>
+          <div className="staff-grid">
+            {STAFF.map(m => (
+              <div key={m.name} className="staff-card">
+                {m.photo
+                  ? <div className="pcard-photo"><img src={m.photo} alt={m.name} width="600" height="750" loading="lazy" /></div>
+                  : <div className="avatar">{initials(m.name)}</div>}
+                <div className="staff-body">
+                  <div className="pcard-name">{m.name}</div>
+                  <div className="staff-role">{m.role[lang]}</div>
+                </div>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="youth" className="section">
+        <div className="container">
+          <div className="eyebrow">{c.youthLabel}</div>
+          <h2 className="block-title">{c.youthTitle}</h2>
+          <p className="story" style={{ margin: '0 0 2.5rem' }}>{c.youthIntro}</p>
+
+          <div className="youth-grid">
+            {YOUTH.map(y => (
+              <div key={y.name} className="youth-card">
+                <div className="youth-name">{y.name}</div>
+                <div className="youth-years">{y.years[lang]}</div>
+              </div>
+            ))}
+          </div>
+
+          <div className="youth-photos">
+            {youthPhotos.map(p => (
+              <a key={p.src} href={p.src} target="_blank" rel="noopener noreferrer" className={p.h < 600 ? 'wide' : ''}>
+                <img src={p.src} alt={p.cap[lang]} width={p.w} height={p.h} loading="lazy" />
+              </a>
             ))}
           </div>
         </div>

@@ -1,0 +1,4832 @@
+{
+ "matches": [
+  {
+   "id": "2026-07-25",
+   "date": "2026-07-25",
+   "comp": "cup",
+   "round": null,
+   "home": "Górnik Brzeszcze",
+   "away": "Strumień Polanka Wielka",
+   "hs": 1,
+   "as": 2,
+   "referee": "Michał Matyjaszek",
+   "assistants": [],
+   "notes": [
+    "Date and competition inferred: opponent and score match the 25 Jul cup tie (Górnik 1–2 Strumień) on RegioWyniki; the screenshots show no date.",
+    "Paweł Kępka shows a yellow card in the line-up but no matching entry (and no minute) in the events list.",
+    "Assistant referees not visible in the screenshots."
+   ],
+   "lineup": [
+    {
+     "name": "Mateusz Baran",
+     "no": 9,
+     "role": "S",
+     "on": null,
+     "off": 43,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Kacper Brach",
+     "no": 7,
+     "role": "S",
+     "on": null,
+     "off": 24,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kevin Czarkowski",
+     "no": 20,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Patryk Dętkoś",
+     "no": 18,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 10,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Oskar Palusiński",
+     "no": 5,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Adrian Pawela",
+     "no": 4,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "S",
+     "on": null,
+     "off": 62,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Wojciech Senkowski",
+     "no": 16,
+     "role": "S",
+     "on": null,
+     "off": 69,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "S",
+     "on": null,
+     "off": 78,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Bartosz Borończyk",
+     "no": 6,
+     "role": "B",
+     "on": 62,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Kloc",
+     "no": 17,
+     "role": "B",
+     "on": 69,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "B",
+     "on": 24,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": 24,
+     "role": "B",
+     "on": 78,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Wiktor Nowak",
+     "no": 15,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "3",
+     "m": 3.0,
+     "type": "pen",
+     "team": "O",
+     "player": "Daniel Kuźma",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "24",
+     "m": 24.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Beniamin Kojm",
+     "other": "Kacper Brach",
+     "bench": false
+    },
+    {
+     "min": "27",
+     "m": 27.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Jakub Rymarczyk",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "36",
+     "m": 36.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Mateusz Baran",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "42",
+     "m": 42.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Tomasz Kamiński",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "43",
+     "m": 43.0,
+     "type": "yellow2",
+     "team": "G",
+     "player": "Mateusz Baran",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "46",
+     "m": 46.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Mateusz Zygmunt",
+     "other": "Tomasz Kamiński",
+     "bench": false
+    },
+    {
+     "min": "62",
+     "m": 62.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartosz Borończyk",
+     "other": "Jakub Rymarczyk",
+     "bench": false
+    },
+    {
+     "min": "68",
+     "m": 68.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Franek Kawczak",
+     "other": "Tymoteusz Stachura",
+     "bench": false
+    },
+    {
+     "min": "68",
+     "m": 68.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Kamil Borak",
+     "other": "Sebastian Grubka",
+     "bench": false
+    },
+    {
+     "min": "69",
+     "m": 69.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Michał Kloc",
+     "other": "Wojciech Senkowski",
+     "bench": false
+    },
+    {
+     "min": "72",
+     "m": 72.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Miłosz Kusak",
+     "other": "Wojciech Jaszczyk",
+     "bench": false
+    },
+    {
+     "min": "75",
+     "m": 75.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Przemysław Szpiegla",
+     "other": "Piotr Merta",
+     "bench": false
+    },
+    {
+     "min": "78",
+     "m": 78.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Miłosz Korzec",
+     "other": "Bartosz Sikora",
+     "bench": false
+    },
+    {
+     "min": "85",
+     "m": 85.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Maciej Janus",
+     "other": "Bartłomiej Drabczyk",
+     "bench": false
+    },
+    {
+     "min": "90",
+     "m": 90.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Maciej Janus",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "90+1",
+     "m": 90.01,
+     "type": "goal",
+     "team": "O",
+     "player": "Miłosz Kusak",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "90+4",
+     "m": 90.04,
+     "type": "goal",
+     "team": "G",
+     "player": "Kevin Czarkowski",
+     "other": null,
+     "bench": false
+    }
+   ],
+   "lineup_only_cards": [
+    {
+     "player": "Paweł Kępka",
+     "type": "yellow",
+     "team": "G",
+     "note": "shown in line-up only; minute unknown"
+    }
+   ]
+  },
+  {
+   "id": "2026-08-15",
+   "date": "2026-08-15",
+   "comp": "league",
+   "round": 1,
+   "home": "Górnik Brzeszcze",
+   "away": "Zatorzanka Zator",
+   "hs": 3,
+   "as": 2,
+   "referee": "Marcin Hutny",
+   "assistants": [
+    "Kacper Grubka",
+    "Artur Wesołowski"
+   ],
+   "notes": [
+    "Date and round inferred from opponent and score (RegioWyniki); the screenshots show no date."
+   ],
+   "lineup": [
+    {
+     "name": "Mateusz Baran",
+     "no": 9,
+     "role": "S",
+     "on": null,
+     "off": 85,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Kevin Czarkowski",
+     "no": 7,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Patryk Dętkoś",
+     "no": 18,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 14,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kajetan Kojm",
+     "no": 20,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maksymilian Kojm",
+     "no": 21,
+     "role": "S",
+     "on": null,
+     "off": 89,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Adrian Pawela",
+     "no": 4,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "S",
+     "on": null,
+     "off": 78,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Szymon Żurek",
+     "no": 15,
+     "role": "S",
+     "on": null,
+     "off": 73,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Iwanicki",
+     "no": 6,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Kloc",
+     "no": 8,
+     "role": "B",
+     "on": 85,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "B",
+     "on": 89,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": 24,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Oskar Palusiński",
+     "no": 5,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paskal Piekarski",
+     "no": 17,
+     "role": "B",
+     "on": 78,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Wojciech Senkowski",
+     "no": 16,
+     "role": "B",
+     "on": 73,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "22",
+     "m": 22.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Jakub Rymarczyk",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "36",
+     "m": 36.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Tymoteusz Banaszak",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "44",
+     "m": 44.0,
+     "type": "goal",
+     "team": "G",
+     "player": "Maksymilian Kojm",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "48",
+     "m": 48.0,
+     "type": "goal",
+     "team": "G",
+     "player": "Mateusz Baran",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "51",
+     "m": 51.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Kamil Głąb",
+     "other": "Sławomir Krzemień",
+     "bench": false
+    },
+    {
+     "min": "60",
+     "m": 60.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Vladyslav Koval",
+     "other": "Marcin Matusyk",
+     "bench": false
+    },
+    {
+     "min": "67",
+     "m": 67.0,
+     "type": "goal",
+     "team": "G",
+     "player": "Jakub Rymarczyk",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "71",
+     "m": 71.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Tomasz Gzela",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "73",
+     "m": 73.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Wojciech Senkowski",
+     "other": "Szymon Żurek",
+     "bench": false
+    },
+    {
+     "min": "75",
+     "m": 75.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Krzysztof Toporek",
+     "other": "Tymoteusz Banaszak",
+     "bench": false
+    },
+    {
+     "min": "78",
+     "m": 78.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Paskal Piekarski",
+     "other": "Jakub Rymarczyk",
+     "bench": false
+    },
+    {
+     "min": "85",
+     "m": 85.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Michał Kloc",
+     "other": "Mateusz Baran",
+     "bench": false
+    },
+    {
+     "min": "89",
+     "m": 89.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Jarosław Mika",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "89",
+     "m": 89.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Beniamin Kojm",
+     "other": "Maksymilian Kojm",
+     "bench": false
+    },
+    {
+     "min": "90+4",
+     "m": 90.04,
+     "type": "yellow",
+     "team": "G",
+     "player": "Michał Kloc",
+     "other": null,
+     "bench": false
+    }
+   ],
+   "lineup_only_cards": []
+  },
+  {
+   "id": "2026-08-22",
+   "date": "2026-08-22",
+   "comp": "league",
+   "round": 2,
+   "home": "Strumień Polanka Wielka",
+   "away": "Górnik Brzeszcze",
+   "hs": 1,
+   "as": 1,
+   "referee": "Miłosz Tobiczyk",
+   "assistants": [
+    "Zbigniew Walus",
+    "Jakub Sucu"
+   ],
+   "notes": [
+    "Date and round inferred from opponent and score (RegioWyniki); the screenshots show no date."
+   ],
+   "lineup": [
+    {
+     "name": "Mateusz Baran",
+     "no": 9,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Patryk Dętkoś",
+     "no": 18,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 20,
+     "role": "S",
+     "on": null,
+     "off": 88,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "S",
+     "on": null,
+     "off": 90,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maksymilian Kojm",
+     "no": 21,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maciej Mrowiec",
+     "no": 22,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Adrian Pawela",
+     "no": 4,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "S",
+     "on": null,
+     "off": 68,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Szymon Żurek",
+     "no": 15,
+     "role": "S",
+     "on": null,
+     "off": 85,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Borończyk",
+     "no": 7,
+     "role": "B",
+     "on": 85,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Brach",
+     "no": 14,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Kloc",
+     "no": 8,
+     "role": "B",
+     "on": 88,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": 24,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Kamil Nowak",
+     "no": 6,
+     "role": "B",
+     "on": 90,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paskal Piekarski",
+     "no": 17,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Wojciech Senkowski",
+     "no": 16,
+     "role": "B",
+     "on": 68,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "32",
+     "m": 32.0,
+     "type": "goal",
+     "team": "G",
+     "player": "Adrian Pawela",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "49",
+     "m": 49.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Sebastian Grubka",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "50",
+     "m": 50.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Jakub Rymarczyk",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "54",
+     "m": 54.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Mateusz Baran",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "56",
+     "m": 56.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Wojciech Jaszczyk",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "60",
+     "m": 60.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Przemysław Szpiegla",
+     "other": "Jakub Krawczyk",
+     "bench": false
+    },
+    {
+     "min": "60",
+     "m": 60.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Kamil Borak",
+     "other": "Sebastian Grubka",
+     "bench": false
+    },
+    {
+     "min": "68",
+     "m": 68.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Wojciech Senkowski",
+     "other": "Jakub Rymarczyk",
+     "bench": false
+    },
+    {
+     "min": "70",
+     "m": 70.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Franek Kawczak",
+     "other": "Adrian Wandor",
+     "bench": false
+    },
+    {
+     "min": "76",
+     "m": 76.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Piotr Kasperek",
+     "other": "Tymoteusz Stachura",
+     "bench": false
+    },
+    {
+     "min": "79",
+     "m": 79.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Maksymilian Kojm",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "82",
+     "m": 82.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Miłosz Kusak",
+     "other": "Wojciech Jaszczyk",
+     "bench": false
+    },
+    {
+     "min": "85",
+     "m": 85.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartosz Borończyk",
+     "other": "Szymon Żurek",
+     "bench": false
+    },
+    {
+     "min": "88",
+     "m": 88.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Michał Kloc",
+     "other": "Paweł Kępka",
+     "bench": false
+    },
+    {
+     "min": "90",
+     "m": 90.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kamil Nowak",
+     "other": "Beniamin Kojm",
+     "bench": false
+    }
+   ],
+   "lineup_only_cards": []
+  },
+  {
+   "id": "2026-08-29",
+   "date": "2026-08-29",
+   "comp": "league",
+   "round": 3,
+   "home": "Górnik Brzeszcze",
+   "away": "LKS Jawiszowice",
+   "hs": 1,
+   "as": 2,
+   "referee": null,
+   "assistants": [],
+   "notes": [
+    "Date and round inferred from opponent and score (RegioWyniki); the screenshots show no date.",
+    "Referees not visible in the screenshots."
+   ],
+   "lineup": [
+    {
+     "name": "Mateusz Baran",
+     "no": 9,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Patryk Dętkoś",
+     "no": 18,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Iwanicki",
+     "no": 6,
+     "role": "S",
+     "on": null,
+     "off": 61,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 10,
+     "role": "S",
+     "on": null,
+     "off": 74,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kajetan Kojm",
+     "no": 20,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maksymilian Kojm",
+     "no": 21,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Adrian Pawela",
+     "no": 4,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "S",
+     "on": null,
+     "off": 74,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Szymon Żurek",
+     "no": 15,
+     "role": "S",
+     "on": null,
+     "off": 83,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Borończyk",
+     "no": 8,
+     "role": "B",
+     "on": 61,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Brach",
+     "no": 14,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Kloc",
+     "no": 7,
+     "role": "B",
+     "on": 74,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": 24,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Bartłomiej Kozak",
+     "no": 13,
+     "role": "B",
+     "on": 74,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kamil Nowak",
+     "no": 17,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Oskar Palusiński",
+     "no": 5,
+     "role": "B",
+     "on": 83,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Wojciech Senkowski",
+     "no": 16,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "33",
+     "m": 33.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Jakub Zimnal",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "41",
+     "m": 41.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Jakub Zimnal",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "53",
+     "m": 53.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Jakub Leśniak",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "55",
+     "m": 55.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Szymon Brańka",
+     "other": "Jakub Leśniak",
+     "bench": false
+    },
+    {
+     "min": "55",
+     "m": 55.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Patryk Wysogląd",
+     "other": "Jakub Latanik",
+     "bench": false
+    },
+    {
+     "min": "55",
+     "m": 55.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Oskar Rączka",
+     "other": "Jakub Zimnal",
+     "bench": false
+    },
+    {
+     "min": "61",
+     "m": 61.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartosz Borończyk",
+     "other": "Kacper Iwanicki",
+     "bench": false
+    },
+    {
+     "min": "74",
+     "m": 74.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Wojciech Brzychcy",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "74",
+     "m": 74.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Szymon Żurek",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "74",
+     "m": 74.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartłomiej Kozak",
+     "other": "Jakub Rymarczyk",
+     "bench": false
+    },
+    {
+     "min": "74",
+     "m": 74.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Michał Kloc",
+     "other": "Paweł Kępka",
+     "bench": false
+    },
+    {
+     "min": "76",
+     "m": 76.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Tomasz Borowczyk",
+     "other": "Mateusz Hankus",
+     "bench": false
+    },
+    {
+     "min": "81",
+     "m": 81.0,
+     "type": "goal",
+     "team": "G",
+     "player": "Szymon Żurek",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "83",
+     "m": 83.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Tymoteusz Szałaśny",
+     "other": "Bogdan Swarzyński",
+     "bench": false
+    },
+    {
+     "min": "83",
+     "m": 83.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Oskar Palusiński",
+     "other": "Szymon Żurek",
+     "bench": false
+    },
+    {
+     "min": "90",
+     "m": 90.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Nikodem Smakowski",
+     "other": "Sylwester Brzeziński",
+     "bench": false
+    },
+    {
+     "min": "90+1",
+     "m": 90.01,
+     "type": "yellow",
+     "team": "G",
+     "player": "Oskar Palusiński",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "90+3",
+     "m": 90.03,
+     "type": "goal",
+     "team": "O",
+     "player": "Tymoteusz Szałaśny",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "90+3",
+     "m": 90.03,
+     "type": "yellow",
+     "team": "O",
+     "player": "Tymoteusz Szałaśny",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "90+5",
+     "m": 90.05,
+     "type": "yellow",
+     "team": "O",
+     "player": "Oskar Rączka",
+     "other": null,
+     "bench": false
+    }
+   ],
+   "lineup_only_cards": []
+  },
+  {
+   "id": "2026-09-05",
+   "date": "2026-09-05",
+   "comp": "league",
+   "round": 4,
+   "home": "Soła Łęki",
+   "away": "Górnik Brzeszcze",
+   "hs": 2,
+   "as": 0,
+   "referee": "Wojciech Seruga",
+   "assistants": [],
+   "notes": [
+    "Round 4 is printed on the match header; the date is taken from RegioWyniki.",
+    "The substitute bench is mostly hidden in the screenshots: only substitutes who came on are recorded, and their shirt numbers are unknown.",
+    "Assistant referees not visible in the screenshots."
+   ],
+   "lineup": [
+    {
+     "name": "Mateusz Baran",
+     "no": 9,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 10,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "S",
+     "on": null,
+     "off": 70,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maksymilian Kojm",
+     "no": 21,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maciej Mrowiec",
+     "no": 22,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Oskar Palusiński",
+     "no": 5,
+     "role": "S",
+     "on": null,
+     "off": 84,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Adrian Pawela",
+     "no": 4,
+     "role": "S",
+     "on": null,
+     "off": 74,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "S",
+     "on": null,
+     "off": 70,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "S",
+     "on": null,
+     "off": 84,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Szymon Żurek",
+     "no": 15,
+     "role": "S",
+     "on": null,
+     "off": 55,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Kloc",
+     "no": null,
+     "role": "B",
+     "on": 55,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Łukasz Zawadzki",
+     "no": null,
+     "role": "B",
+     "on": 70,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Iwanicki",
+     "no": null,
+     "role": "B",
+     "on": 70,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartłomiej Kozak",
+     "no": null,
+     "role": "B",
+     "on": 74,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": null,
+     "role": "B",
+     "on": 84,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Kacper Brach",
+     "no": null,
+     "role": "B",
+     "on": 84,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "35",
+     "m": 35.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Jakub Rymarczyk",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "44",
+     "m": 44.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Kacper Kukiełka",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "46",
+     "m": 46.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Kacper Kukiełka",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "51",
+     "m": 51.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Mateusz Gros",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "55",
+     "m": 55.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Michał Kloc",
+     "other": "Szymon Żurek",
+     "bench": false
+    },
+    {
+     "min": "64",
+     "m": 64.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Adrian Pawela",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "70",
+     "m": 70.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Łukasz Zawadzki",
+     "other": "Jakub Rymarczyk",
+     "bench": false
+    },
+    {
+     "min": "70",
+     "m": 70.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kacper Iwanicki",
+     "other": "Beniamin Kojm",
+     "bench": false
+    },
+    {
+     "min": "74",
+     "m": 74.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartłomiej Kozak",
+     "other": "Adrian Pawela",
+     "bench": false
+    },
+    {
+     "min": "76",
+     "m": 76.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Kacper Iwanicki",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "80",
+     "m": 80.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Dariusz Włoch",
+     "other": "Konrad Żmuda",
+     "bench": false
+    },
+    {
+     "min": "80",
+     "m": 80.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Daniel Wawrzyczek",
+     "other": "Kacper Kukiełka",
+     "bench": false
+    },
+    {
+     "min": "84",
+     "m": 84.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Miłosz Korzec",
+     "other": "Bartosz Sikora",
+     "bench": false
+    },
+    {
+     "min": "84",
+     "m": 84.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kacper Brach",
+     "other": "Oskar Palusiński",
+     "bench": false
+    },
+    {
+     "min": "87",
+     "m": 87.0,
+     "type": "pen",
+     "team": "O",
+     "player": "Guilherme Siqueira De Almeida",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "88",
+     "m": 88.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Dariusz Potaczek",
+     "other": "Bartłomiej Jasiński",
+     "bench": false
+    },
+    {
+     "min": "89",
+     "m": 89.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Paweł Kępka",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "89",
+     "m": 89.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Krystian Jekiełek",
+     "other": "Guilherme Siqueira De Almeida",
+     "bench": false
+    }
+   ],
+   "lineup_only_cards": []
+  },
+  {
+   "id": "2026-09-12",
+   "date": "2026-09-12",
+   "comp": "league",
+   "round": 5,
+   "home": "Górnik Brzeszcze",
+   "away": "Solavia Grojec",
+   "hs": 1,
+   "as": 2,
+   "referee": "Sławomir Lachendro",
+   "assistants": [
+    "Nikodem Suchocki",
+    "Mariusz Jakubik"
+   ],
+   "notes": [
+    "Round is printed on the match header in the screenshots; the date comes from the matching RegioWyniki result."
+   ],
+   "lineup": [
+    {
+     "name": "Mateusz Baran",
+     "no": 9,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Kevin Czarkowski",
+     "no": 20,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Patryk Dętkoś",
+     "no": 18,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 10,
+     "role": "S",
+     "on": null,
+     "off": 68,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kajetan Kojm",
+     "no": 2,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": 24,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Maciej Mrowiec",
+     "no": 22,
+     "role": "S",
+     "on": null,
+     "off": 77,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Oskar Palusiński",
+     "no": 5,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Adrian Pawela",
+     "no": 4,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "S",
+     "on": null,
+     "off": 77,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Borończyk",
+     "no": 17,
+     "role": "B",
+     "on": 77,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Brach",
+     "no": 14,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Iwanicki",
+     "no": 6,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Kloc",
+     "no": 7,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartłomiej Kozak",
+     "no": 13,
+     "role": "B",
+     "on": 68,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Wojciech Senkowski",
+     "no": 16,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Łukasz Zawadzki",
+     "no": 8,
+     "role": "B",
+     "on": 77,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "24",
+     "m": 24.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Konrad Chowaniec",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "40",
+     "m": 40.0,
+     "type": "pen",
+     "team": "G",
+     "player": "Adrian Pawela",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "46",
+     "m": 46.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Wojciech Lizoniak",
+     "other": "Tomasz Wołek",
+     "bench": false
+    },
+    {
+     "min": "46",
+     "m": 46.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Michał Dudka",
+     "other": "Oskar Lichość",
+     "bench": false
+    },
+    {
+     "min": "53",
+     "m": 53.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Szymon Spadek",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "67",
+     "m": 67.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Jakub Rymarczyk",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "68",
+     "m": 68.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartłomiej Kozak",
+     "other": "Paweł Kępka",
+     "bench": false
+    },
+    {
+     "min": "72",
+     "m": 72.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Piotr Włoszek",
+     "other": "Wojciech Chowaniec",
+     "bench": false
+    },
+    {
+     "min": "74",
+     "m": 74.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Wojciech Górkiewicz",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "77",
+     "m": 77.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Łukasz Zawadzki",
+     "other": "Jakub Rymarczyk",
+     "bench": false
+    },
+    {
+     "min": "77",
+     "m": 77.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartosz Borończyk",
+     "other": "Maciej Mrowiec",
+     "bench": false
+    },
+    {
+     "min": "90",
+     "m": 90.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Mateusz Pietraszewski",
+     "other": null,
+     "bench": false
+    }
+   ],
+   "lineup_only_cards": []
+  },
+  {
+   "id": "2026-09-19",
+   "date": "2026-09-19",
+   "comp": "league",
+   "round": 6,
+   "home": "Orzeł Witkowice",
+   "away": "Górnik Brzeszcze",
+   "hs": 5,
+   "as": 0,
+   "referee": null,
+   "assistants": [],
+   "notes": [
+    "Round is printed on the match header in the screenshots; the date comes from the matching RegioWyniki result.",
+    "Referees not visible in the screenshots.",
+    "At 64' MPZPN pairs Senkowski with Sikora and Korzec with Kępka (a goalkeeper swap recorded crosswise); recorded exactly as shown, minutes are unaffected."
+   ],
+   "lineup": [
+    {
+     "name": "Mateusz Baran",
+     "no": 9,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Kacper Brach",
+     "no": 14,
+     "role": "S",
+     "on": null,
+     "off": 46,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kevin Czarkowski",
+     "no": 20,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 10,
+     "role": "S",
+     "on": null,
+     "off": 64,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "S",
+     "on": null,
+     "off": 46,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kajetan Kojm",
+     "no": 22,
+     "role": "S",
+     "on": null,
+     "off": 78,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maksymilian Kojm",
+     "no": 21,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Oskar Palusiński",
+     "no": 5,
+     "role": "S",
+     "on": null,
+     "off": 78,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Adrian Pawela",
+     "no": 4,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "S",
+     "on": null,
+     "off": 64,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Bartosz Borończyk",
+     "no": 17,
+     "role": "B",
+     "on": 46,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Iwanicki",
+     "no": 6,
+     "role": "B",
+     "on": 78,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Kloc",
+     "no": 7,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": 24,
+     "role": "B",
+     "on": 64,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Kamil Nowak",
+     "no": 18,
+     "role": "B",
+     "on": 78,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "B",
+     "on": 46,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Wojciech Senkowski",
+     "no": 16,
+     "role": "B",
+     "on": 64,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Łukasz Zawadzki",
+     "no": 8,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "16",
+     "m": 16.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Igor Olszowski",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "19",
+     "m": 19.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Szymon Hankus",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "41",
+     "m": 41.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Oskar Palusiński",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "44",
+     "m": 44.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Beniamin Kojm",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "46",
+     "m": 46.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Jakub Rymarczyk",
+     "other": "Beniamin Kojm",
+     "bench": false
+    },
+    {
+     "min": "46",
+     "m": 46.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartosz Borończyk",
+     "other": "Kacper Brach",
+     "bench": false
+    },
+    {
+     "min": "50",
+     "m": 50.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Igor Olszowski",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "64",
+     "m": 64.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Michał Baraniak",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "64",
+     "m": 64.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Wojciech Senkowski",
+     "other": "Bartosz Sikora",
+     "bench": false
+    },
+    {
+     "min": "64",
+     "m": 64.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Miłosz Korzec",
+     "other": "Paweł Kępka",
+     "bench": false
+    },
+    {
+     "min": "65",
+     "m": 65.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Adrian Ostrowski",
+     "other": "Igor Olszowski",
+     "bench": false
+    },
+    {
+     "min": "65",
+     "m": 65.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Michał Kołek",
+     "other": "Dawid Nycz",
+     "bench": false
+    },
+    {
+     "min": "70",
+     "m": 70.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Kacper Kaspera",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "74",
+     "m": 74.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Szymon Hankus",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "75",
+     "m": 75.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Kacper Jekiełek",
+     "other": "Patryk Zemła",
+     "bench": false
+    },
+    {
+     "min": "78",
+     "m": 78.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kamil Nowak",
+     "other": "Oskar Palusiński",
+     "bench": false
+    },
+    {
+     "min": "78",
+     "m": 78.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kacper Iwanicki",
+     "other": "Kajetan Kojm",
+     "bench": false
+    },
+    {
+     "min": "90",
+     "m": 90.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Michał Kołek",
+     "other": null,
+     "bench": false
+    }
+   ],
+   "lineup_only_cards": []
+  },
+  {
+   "id": "2026-09-26",
+   "date": "2026-09-26",
+   "comp": "league",
+   "round": 7,
+   "home": "Górnik Brzeszcze",
+   "away": "Unia II Oświęcim",
+   "hs": 0,
+   "as": 3,
+   "referee": "Mariusz Jakubik",
+   "assistants": [],
+   "notes": [
+    "Round is printed on the match header in the screenshots; the date comes from the matching RegioWyniki result.",
+    "Assistant referees not visible (hidden by the bottom bar)."
+   ],
+   "lineup": [
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Kevin Czarkowski",
+     "no": 20,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 10,
+     "role": "S",
+     "on": null,
+     "off": 60,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "S",
+     "on": null,
+     "off": 65,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maksymilian Kojm",
+     "no": 21,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maciej Mrowiec",
+     "no": 22,
+     "role": "S",
+     "on": null,
+     "off": 72,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Oskar Palusiński",
+     "no": 5,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Adrian Pawela",
+     "no": 4,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "S",
+     "on": null,
+     "off": 60,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Wojciech Senkowski",
+     "no": 16,
+     "role": "S",
+     "on": null,
+     "off": 65,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Mateusz Baran",
+     "no": 9,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Brach",
+     "no": 14,
+     "role": "B",
+     "on": 65,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Patryk Dętkoś",
+     "no": 18,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Iwanicki",
+     "no": 6,
+     "role": "B",
+     "on": 60,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": 24,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Bartłomiej Kozak",
+     "no": 13,
+     "role": "B",
+     "on": 72,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kamil Nowak",
+     "no": 7,
+     "role": "B",
+     "on": 65,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Łukasz Zawadzki",
+     "no": 8,
+     "role": "B",
+     "on": 60,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "20",
+     "m": 20.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Fabian Krawiec",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "30",
+     "m": 30.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Olaf Karolczak",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "40",
+     "m": 40.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Jakub Rymarczyk",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "45",
+     "m": 45.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Krzysztof Raczek",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "46",
+     "m": 46.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Bartosz Bułka",
+     "other": "Antoni Moc",
+     "bench": false
+    },
+    {
+     "min": "46",
+     "m": 46.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Nikolas Andrzejak",
+     "other": "Olaf Karolczak",
+     "bench": false
+    },
+    {
+     "min": "51",
+     "m": 51.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Adrian Pawela",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "55",
+     "m": 55.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Oskar Palusiński",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "60",
+     "m": 60.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Tomasz Hamik",
+     "other": "Fabian Krawiec",
+     "bench": false
+    },
+    {
+     "min": "60",
+     "m": 60.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Łukasz Zawadzki",
+     "other": "Jakub Rymarczyk",
+     "bench": false
+    },
+    {
+     "min": "60",
+     "m": 60.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kacper Iwanicki",
+     "other": "Paweł Kępka",
+     "bench": false
+    },
+    {
+     "min": "65",
+     "m": 65.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kamil Nowak",
+     "other": "Wojciech Senkowski",
+     "bench": false
+    },
+    {
+     "min": "65",
+     "m": 65.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kacper Brach",
+     "other": "Beniamin Kojm",
+     "bench": false
+    },
+    {
+     "min": "70",
+     "m": 70.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Jakub Grubka",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "72",
+     "m": 72.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartłomiej Kozak",
+     "other": "Maciej Mrowiec",
+     "bench": false
+    },
+    {
+     "min": "73",
+     "m": 73.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Mateusz Maślona",
+     "other": "Kyrylo Savchuk",
+     "bench": false
+    },
+    {
+     "min": "83",
+     "m": 83.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Jakub Grubka",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "85",
+     "m": 85.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Jakub Grubka",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "85",
+     "m": 85.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Mateusz Wójcik",
+     "other": "Kacper Nikliborc",
+     "bench": false
+    }
+   ],
+   "lineup_only_cards": []
+  },
+  {
+   "id": "2026-10-03",
+   "date": "2026-10-03",
+   "comp": "league",
+   "round": 8,
+   "home": "Hejnał Kęty",
+   "away": "Górnik Brzeszcze",
+   "hs": 4,
+   "as": 0,
+   "referee": null,
+   "assistants": [],
+   "notes": [
+    "Round is printed on the match header in the screenshots; the date comes from the matching RegioWyniki result.",
+    "Referees not visible in the screenshots.",
+    "Maksymilian Kojm was sent off (straight red) at 81'."
+   ],
+   "lineup": [
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Kevin Czarkowski",
+     "no": 20,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Iwanicki",
+     "no": 6,
+     "role": "S",
+     "on": null,
+     "off": 45,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kajetan Kojm",
+     "no": 2,
+     "role": "S",
+     "on": null,
+     "off": 83,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maksymilian Kojm",
+     "no": 21,
+     "role": "S",
+     "on": null,
+     "off": 81,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maciej Mrowiec",
+     "no": 22,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Oskar Palusiński",
+     "no": 5,
+     "role": "S",
+     "on": null,
+     "off": 68,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Adrian Pawela",
+     "no": 4,
+     "role": "S",
+     "on": null,
+     "off": 77,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "S",
+     "on": null,
+     "off": 46,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Szymon Żurek",
+     "no": 15,
+     "role": "S",
+     "on": null,
+     "off": 62,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Borończyk",
+     "no": 17,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Brach",
+     "no": 14,
+     "role": "B",
+     "on": 45,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Patryk Dętkoś",
+     "no": 18,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 10,
+     "role": "B",
+     "on": 62,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "B",
+     "on": 83,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": 24,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Kamil Nowak",
+     "no": 7,
+     "role": "B",
+     "on": 77,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Wojciech Senkowski",
+     "no": 16,
+     "role": "B",
+     "on": 46,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Łukasz Zawadzki",
+     "no": 8,
+     "role": "B",
+     "on": 68,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "2",
+     "m": 2.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Jakub Komędera",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "28",
+     "m": 28.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Kacper Pawlik",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "45",
+     "m": 45.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kacper Brach",
+     "other": "Kacper Iwanicki",
+     "bench": false
+    },
+    {
+     "min": "46",
+     "m": 46.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Wojciech Senkowski",
+     "other": "Jakub Rymarczyk",
+     "bench": false
+    },
+    {
+     "min": "52",
+     "m": 52.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Krzysztof Chrapek",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "60",
+     "m": 60.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Szymon Wróblewski",
+     "other": "Nikodem Merta",
+     "bench": false
+    },
+    {
+     "min": "60",
+     "m": 60.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Jakub Kotusiewicz",
+     "other": "Jakub Komędera",
+     "bench": false
+    },
+    {
+     "min": "62",
+     "m": 62.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Paweł Kępka",
+     "other": "Szymon Żurek",
+     "bench": false
+    },
+    {
+     "min": "68",
+     "m": 68.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Łukasz Zawadzki",
+     "other": "Oskar Palusiński",
+     "bench": false
+    },
+    {
+     "min": "74",
+     "m": 74.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Wojciech Senkowski",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "75",
+     "m": 75.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Jakub Kotusiewicz",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "75",
+     "m": 75.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Bartłomiej Dubiel",
+     "other": "Kacper Szypuła",
+     "bench": false
+    },
+    {
+     "min": "75",
+     "m": 75.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Przemysław Tomala",
+     "other": "Kacper Pawlik",
+     "bench": false
+    },
+    {
+     "min": "77",
+     "m": 77.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kamil Nowak",
+     "other": "Adrian Pawela",
+     "bench": false
+    },
+    {
+     "min": "80",
+     "m": 80.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Jan Kleczar",
+     "other": "Krzysztof Chrapek",
+     "bench": false
+    },
+    {
+     "min": "81",
+     "m": 81.0,
+     "type": "red",
+     "team": "G",
+     "player": "Maksymilian Kojm",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "83",
+     "m": 83.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Beniamin Kojm",
+     "other": "Kajetan Kojm",
+     "bench": false
+    }
+   ],
+   "lineup_only_cards": []
+  },
+  {
+   "id": "2026-10-11",
+   "date": "2026-10-11",
+   "comp": "league",
+   "round": 9,
+   "home": "Górnik Brzeszcze",
+   "away": "Soła Oświęcim",
+   "hs": 2,
+   "as": 3,
+   "referee": "Mariusz Jakubik",
+   "assistants": [],
+   "notes": [
+    "Round is printed on the match header in the screenshots; the date comes from the matching RegioWyniki result.",
+    "The referee's name is partly covered by the bottom bar but readable; assistants are not visible."
+   ],
+   "lineup": [
+    {
+     "name": "Mateusz Baran",
+     "no": 9,
+     "role": "S",
+     "on": null,
+     "off": 90,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Kevin Czarkowski",
+     "no": 20,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Patryk Dętkoś",
+     "no": 18,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 10,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kajetan Kojm",
+     "no": 2,
+     "role": "S",
+     "on": null,
+     "off": 70,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Oskar Palusiński",
+     "no": 5,
+     "role": "S",
+     "on": null,
+     "off": 72,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "S",
+     "on": null,
+     "off": 86,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Łukasz Zawadzki",
+     "no": 8,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Szymon Żurek",
+     "no": 15,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Borończyk",
+     "no": 17,
+     "role": "B",
+     "on": 86,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Brach",
+     "no": 14,
+     "role": "B",
+     "on": 70,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": 24,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Kamil Nowak",
+     "no": 7,
+     "role": "B",
+     "on": 90,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Wojciech Senkowski",
+     "no": 16,
+     "role": "B",
+     "on": 72,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "15",
+     "m": 15.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Wiktor Gołba",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "16",
+     "m": 16.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Igor Galus",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "20",
+     "m": 20.0,
+     "type": "pen",
+     "team": "O",
+     "player": "Filip Iwański",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "23",
+     "m": 23.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Łukasz Zawadzki",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "34",
+     "m": 34.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Jakub Rymarczyk",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "46",
+     "m": 46.0,
+     "type": "goal",
+     "team": "G",
+     "player": "Mateusz Baran",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "51",
+     "m": 51.0,
+     "type": "pen",
+     "team": "G",
+     "player": "Szymon Żurek",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "62",
+     "m": 62.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Oskar Palusiński",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "63",
+     "m": 63.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Filip Iwański",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "70",
+     "m": 70.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kacper Brach",
+     "other": "Kajetan Kojm",
+     "bench": false
+    },
+    {
+     "min": "72",
+     "m": 72.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Wojciech Senkowski",
+     "other": "Oskar Palusiński",
+     "bench": false
+    },
+    {
+     "min": "75",
+     "m": 75.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Kacper Brach",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "76",
+     "m": 76.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Konrad Błażewicz",
+     "other": "Mateusz Machała",
+     "bench": false
+    },
+    {
+     "min": "85",
+     "m": 85.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Dorian Szczerbowski",
+     "other": "Sebastian Smolarek",
+     "bench": false
+    },
+    {
+     "min": "86",
+     "m": 86.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartosz Borończyk",
+     "other": "Jakub Rymarczyk",
+     "bench": false
+    },
+    {
+     "min": "90",
+     "m": 90.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kamil Nowak",
+     "other": "Mateusz Baran",
+     "bench": false
+    },
+    {
+     "min": "90+4",
+     "m": 90.04,
+     "type": "sub",
+     "team": "O",
+     "player": "Tymoteusz Fajfer",
+     "other": "Kacper Nocula",
+     "bench": false
+    }
+   ],
+   "lineup_only_cards": []
+  },
+  {
+   "id": "2026-10-18",
+   "date": "2026-10-18",
+   "comp": "league",
+   "round": 10,
+   "home": "Zgoda Malec",
+   "away": "Górnik Brzeszcze",
+   "hs": 3,
+   "as": 4,
+   "referee": "Łukasz Łabaj",
+   "assistants": [],
+   "notes": [
+    "Round is printed on the match header in the screenshots; the date comes from the matching RegioWyniki result.",
+    "Assistant referees not visible.",
+    "Adrian Pawela wore the captain's armband (Baraniak came on at 85').",
+    "Five Górnik cards late in the match went to players who were already substituted or never played: Nowak 90+2', Brach 90+3', Kępka 90+4', Beniamin Kojm 90+5' (all yellow) and Rymarczyk's second yellow at 90+4' (substituted at 70'). They are recorded as cards but add no minutes."
+   ],
+   "lineup": [
+    {
+     "name": "Mateusz Baran",
+     "no": 9,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kevin Czarkowski",
+     "no": 20,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Patryk Dętkoś",
+     "no": 18,
+     "role": "S",
+     "on": null,
+     "off": 90,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 10,
+     "role": "S",
+     "on": null,
+     "off": 70,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kajetan Kojm",
+     "no": 13,
+     "role": "S",
+     "on": null,
+     "off": 85,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": 24,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Maciej Mrowiec",
+     "no": 22,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Oskar Palusiński",
+     "no": 5,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Adrian Pawela",
+     "no": 4,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "S",
+     "on": null,
+     "off": 70,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Szymon Żurek",
+     "no": 15,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "B",
+     "on": 85,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Borończyk",
+     "no": 17,
+     "role": "B",
+     "on": 70,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Brach",
+     "no": 14,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maksymilian Kojm",
+     "no": 21,
+     "role": "B",
+     "on": 90,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kamil Nowak",
+     "no": 7,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Wojciech Senkowski",
+     "no": 16,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Łukasz Zawadzki",
+     "no": 8,
+     "role": "B",
+     "on": 70,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "8",
+     "m": 8.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Krzysztof Chwierut",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "10",
+     "m": 10.0,
+     "type": "goal",
+     "team": "G",
+     "player": "Szymon Żurek",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "29",
+     "m": 29.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Krzysztof Chwierut",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "43",
+     "m": 43.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Patryk Tomala",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "55",
+     "m": 55.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Marcin Klęczar",
+     "other": "Krzysztof Chwierut",
+     "bench": false
+    },
+    {
+     "min": "60",
+     "m": 60.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Patryk Łukasik",
+     "other": "Dominik Płonka",
+     "bench": false
+    },
+    {
+     "min": "61",
+     "m": 61.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Kacper Mąsior",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "62",
+     "m": 62.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Jakub Rymarczyk",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "68",
+     "m": 68.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Patryk Tomala",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "70",
+     "m": 70.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Łukasz Zawadzki",
+     "other": "Jakub Rymarczyk",
+     "bench": false
+    },
+    {
+     "min": "70",
+     "m": 70.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartosz Borończyk",
+     "other": "Paweł Kępka",
+     "bench": false
+    },
+    {
+     "min": "70",
+     "m": 70.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Grzegorz Sokół",
+     "other": "Filip Hankus",
+     "bench": false
+    },
+    {
+     "min": "71",
+     "m": 71.0,
+     "type": "goal",
+     "team": "G",
+     "player": "Adrian Pawela",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "73",
+     "m": 73.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Maciej Mrowiec",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "75",
+     "m": 75.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Damian Flisek",
+     "other": "Rafał Drebszok",
+     "bench": false
+    },
+    {
+     "min": "80",
+     "m": 80.0,
+     "type": "pen",
+     "team": "G",
+     "player": "Mateusz Baran",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "83",
+     "m": 83.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Łukasz Zawadzki",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "85",
+     "m": 85.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Michał Baraniak",
+     "other": "Kajetan Kojm",
+     "bench": false
+    },
+    {
+     "min": "85",
+     "m": 85.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Sebastian Drebszok",
+     "other": "Jakub Niedziela",
+     "bench": false
+    },
+    {
+     "min": "86",
+     "m": 86.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Oskar Palusiński",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "90",
+     "m": 90.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Mateusz Baran",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "90",
+     "m": 90.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Maksymilian Kojm",
+     "other": "Patryk Dętkoś",
+     "bench": false
+    },
+    {
+     "min": "90+2",
+     "m": 90.02,
+     "type": "yellow",
+     "team": "G",
+     "player": "Kamil Nowak",
+     "other": null,
+     "bench": true
+    },
+    {
+     "min": "90+3",
+     "m": 90.03,
+     "type": "goal",
+     "team": "G",
+     "player": "Mateusz Baran",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "90+3",
+     "m": 90.03,
+     "type": "yellow",
+     "team": "G",
+     "player": "Kacper Brach",
+     "other": null,
+     "bench": true
+    },
+    {
+     "min": "90+4",
+     "m": 90.04,
+     "type": "yellow2",
+     "team": "G",
+     "player": "Jakub Rymarczyk",
+     "other": null,
+     "bench": true
+    },
+    {
+     "min": "90+4",
+     "m": 90.04,
+     "type": "yellow",
+     "team": "G",
+     "player": "Paweł Kępka",
+     "other": null,
+     "bench": true
+    },
+    {
+     "min": "90+5",
+     "m": 90.05,
+     "type": "yellow",
+     "team": "G",
+     "player": "Beniamin Kojm",
+     "other": null,
+     "bench": true
+    }
+   ],
+   "lineup_only_cards": []
+  },
+  {
+   "id": "2026-10-24",
+   "date": "2026-10-24",
+   "comp": "league",
+   "round": 11,
+   "home": "Górnik Brzeszcze",
+   "away": "Przeciszovia Przeciszów",
+   "hs": 0,
+   "as": 3,
+   "referee": "Łukasz Łabaj",
+   "assistants": [],
+   "notes": [
+    "Round is printed on the match header in the screenshots; the date comes from the matching RegioWyniki result.",
+    "Assistant referees not visible.",
+    "At 83' MPZPN pairs Sikora with Pawela, Nowak with Korzec and Brach with Czarkowski (a goalkeeper swap recorded crosswise); recorded exactly as shown, minutes are unaffected."
+   ],
+   "lineup": [
+    {
+     "name": "Mateusz Baran",
+     "no": 9,
+     "role": "S",
+     "on": null,
+     "off": 59,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Kevin Czarkowski",
+     "no": 20,
+     "role": "S",
+     "on": null,
+     "off": 83,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 10,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kajetan Kojm",
+     "no": 22,
+     "role": "S",
+     "on": null,
+     "off": 71,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maksymilian Kojm",
+     "no": 21,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": 24,
+     "role": "S",
+     "on": null,
+     "off": 83,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Oskar Palusiński",
+     "no": 5,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Adrian Pawela",
+     "no": 4,
+     "role": "S",
+     "on": null,
+     "off": 83,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "S",
+     "on": null,
+     "off": 71,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Szymon Żurek",
+     "no": 15,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Borończyk",
+     "no": 17,
+     "role": "B",
+     "on": 59,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Brach",
+     "no": 14,
+     "role": "B",
+     "on": 83,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kamil Nowak",
+     "no": 7,
+     "role": "B",
+     "on": 83,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Wojciech Senkowski",
+     "no": 16,
+     "role": "B",
+     "on": 71,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "B",
+     "on": 83,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Łukasz Zawadzki",
+     "no": 8,
+     "role": "B",
+     "on": 71,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "29",
+     "m": 29.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Jakub Gandurski",
+     "other": "Igor Pawela",
+     "bench": false
+    },
+    {
+     "min": "30",
+     "m": 30.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Marcin Baranowski",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "54",
+     "m": 54.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Grzegorz Wójtowicz",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "54",
+     "m": 54.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Jacek Kwadrans",
+     "other": "Jakub Gandurski",
+     "bench": false
+    },
+    {
+     "min": "59",
+     "m": 59.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartosz Borończyk",
+     "other": "Mateusz Baran",
+     "bench": false
+    },
+    {
+     "min": "63",
+     "m": 63.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Jakub Wiśniewski",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "65",
+     "m": 65.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Oskar Palusiński",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "71",
+     "m": 71.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Łukasz Zawadzki",
+     "other": "Jakub Rymarczyk",
+     "bench": false
+    },
+    {
+     "min": "71",
+     "m": 71.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Wojciech Senkowski",
+     "other": "Kajetan Kojm",
+     "bench": false
+    },
+    {
+     "min": "74",
+     "m": 74.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Marcin Baranowski",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "79",
+     "m": 79.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Adrian Kozak",
+     "other": "Paweł Semik",
+     "bench": false
+    },
+    {
+     "min": "83",
+     "m": 83.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Hubert Mozgała",
+     "other": "Marcin Baranowski",
+     "bench": false
+    },
+    {
+     "min": "83",
+     "m": 83.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartosz Sikora",
+     "other": "Adrian Pawela",
+     "bench": false
+    },
+    {
+     "min": "83",
+     "m": 83.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kamil Nowak",
+     "other": "Miłosz Korzec",
+     "bench": false
+    },
+    {
+     "min": "83",
+     "m": 83.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kacper Brach",
+     "other": "Kevin Czarkowski",
+     "bench": false
+    },
+    {
+     "min": "85",
+     "m": 85.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Kamil Kozak",
+     "other": "Marcin Madej",
+     "bench": false
+    }
+   ],
+   "lineup_only_cards": []
+  },
+  {
+   "id": "2026-10-31",
+   "date": "2026-10-31",
+   "comp": "league",
+   "round": 12,
+   "home": "Górnik Brzeszcze",
+   "away": "Pogórze Gierałtowice",
+   "hs": 1,
+   "as": 1,
+   "referee": "Miłosz Tobiczyk",
+   "assistants": [
+    "Łukasz Łabaj",
+    "Bartłomiej Jasek"
+   ],
+   "notes": [
+    "Round is printed on the match header in the screenshots; the date comes from the matching RegioWyniki result.",
+    "Szymon Żurek was sent off (straight red) at 89', the same minute as the Pogórze penalty."
+   ],
+   "lineup": [
+    {
+     "name": "Mateusz Baran",
+     "no": 9,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Kevin Czarkowski",
+     "no": 20,
+     "role": "S",
+     "on": null,
+     "off": 71,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kajetan Kojm",
+     "no": 2,
+     "role": "S",
+     "on": null,
+     "off": 74,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maksymilian Kojm",
+     "no": 21,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maciej Mrowiec",
+     "no": 22,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Oskar Palusiński",
+     "no": 5,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Adrian Pawela",
+     "no": 4,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Szymon Żurek",
+     "no": 15,
+     "role": "S",
+     "on": null,
+     "off": 89,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Borończyk",
+     "no": 17,
+     "role": "B",
+     "on": 71,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Brach",
+     "no": 14,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Iwanicki",
+     "no": 6,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 10,
+     "role": "B",
+     "on": 74,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": 24,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Kamil Nowak",
+     "no": 7,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Wojciech Senkowski",
+     "no": 16,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Łukasz Zawadzki",
+     "no": 8,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "38",
+     "m": 38.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Maciej Mrowiec",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "62",
+     "m": 62.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Jan Gawkowski",
+     "other": "Radomir Kowalski",
+     "bench": false
+    },
+    {
+     "min": "65",
+     "m": 65.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Krystian Gut",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "69",
+     "m": 69.0,
+     "type": "goal",
+     "team": "G",
+     "player": "Maksymilian Kojm",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "70",
+     "m": 70.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Edgard Nazarian",
+     "other": "Kamil Zając",
+     "bench": false
+    },
+    {
+     "min": "71",
+     "m": 71.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Bartosz Borończyk",
+     "other": "Kevin Czarkowski",
+     "bench": false
+    },
+    {
+     "min": "74",
+     "m": 74.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Paweł Kępka",
+     "other": "Kajetan Kojm",
+     "bench": false
+    },
+    {
+     "min": "81",
+     "m": 81.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Łukasz Krzysteczko",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "89",
+     "m": 89.0,
+     "type": "pen",
+     "team": "O",
+     "player": "Krystian Gut",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "89",
+     "m": 89.0,
+     "type": "red",
+     "team": "G",
+     "player": "Szymon Żurek",
+     "other": null,
+     "bench": false
+    }
+   ],
+   "lineup_only_cards": []
+  },
+  {
+   "id": "2026-11-07",
+   "date": "2026-11-07",
+   "comp": "league",
+   "round": 13,
+   "home": "Puls Broszkowice",
+   "away": "Górnik Brzeszcze",
+   "hs": 4,
+   "as": 0,
+   "referee": "Szymon Dziadowiec",
+   "assistants": [
+    "Zbigniew Walus",
+    "Szymon Zamarlik"
+   ],
+   "notes": [
+    "Round is printed on the match header in the screenshots; the date comes from the matching RegioWyniki result."
+   ],
+   "lineup": [
+    {
+     "name": "Mateusz Baran",
+     "no": 9,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Michał Baraniak",
+     "no": 3,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": true
+    },
+    {
+     "name": "Bartosz Borończyk",
+     "no": 17,
+     "role": "S",
+     "on": null,
+     "off": 58,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kevin Czarkowski",
+     "no": 20,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Paweł Kępka",
+     "no": 10,
+     "role": "S",
+     "on": null,
+     "off": 58,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Maksymilian Kojm",
+     "no": 21,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Oskar Palusiński",
+     "no": 5,
+     "role": "S",
+     "on": null,
+     "off": 75,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Adrian Pawela",
+     "no": 4,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Jakub Rymarczyk",
+     "no": 11,
+     "role": "S",
+     "on": null,
+     "off": 52,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Bartosz Sikora",
+     "no": 1,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Łukasz Zawadzki",
+     "no": 8,
+     "role": "S",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Brach",
+     "no": 14,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Patryk Dętkoś",
+     "no": 18,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kacper Iwanicki",
+     "no": 6,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Beniamin Kojm",
+     "no": 19,
+     "role": "B",
+     "on": 75,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Kajetan Kojm",
+     "no": 13,
+     "role": "B",
+     "on": 52,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Miłosz Korzec",
+     "no": 12,
+     "role": "B",
+     "on": null,
+     "off": null,
+     "gk": true,
+     "c": false
+    },
+    {
+     "name": "Kamil Nowak",
+     "no": 7,
+     "role": "B",
+     "on": 58,
+     "off": null,
+     "gk": false,
+     "c": false
+    },
+    {
+     "name": "Wojciech Senkowski",
+     "no": 16,
+     "role": "B",
+     "on": 58,
+     "off": null,
+     "gk": false,
+     "c": false
+    }
+   ],
+   "events": [
+    {
+     "min": "11",
+     "m": 11.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Jakub Rymarczyk",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "33",
+     "m": 33.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Tomasz Wykręt",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "47",
+     "m": 47.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Michał Tobik",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "51",
+     "m": 51.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Maksymilian Kojm",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "51",
+     "m": 51.0,
+     "type": "yellow",
+     "team": "O",
+     "player": "Rafał Skrzypek",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "52",
+     "m": 52.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kajetan Kojm",
+     "other": "Jakub Rymarczyk",
+     "bench": false
+    },
+    {
+     "min": "55",
+     "m": 55.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Dawid Skiernik",
+     "other": "Tomasz Wykręt",
+     "bench": false
+    },
+    {
+     "min": "55",
+     "m": 55.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Andrzej Augustyn",
+     "other": "Michał Tobik",
+     "bench": false
+    },
+    {
+     "min": "57",
+     "m": 57.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Patryk Żyła",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "58",
+     "m": 58.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Wojciech Senkowski",
+     "other": "Paweł Kępka",
+     "bench": false
+    },
+    {
+     "min": "58",
+     "m": 58.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Kamil Nowak",
+     "other": "Bartosz Borończyk",
+     "bench": false
+    },
+    {
+     "min": "60",
+     "m": 60.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Jakub Wanat",
+     "other": "Rafał Skrzypek",
+     "bench": false
+    },
+    {
+     "min": "65",
+     "m": 65.0,
+     "type": "yellow",
+     "team": "G",
+     "player": "Łukasz Zawadzki",
+     "other": null,
+     "bench": false
+    },
+    {
+     "min": "65",
+     "m": 65.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Alan Michalski",
+     "other": "Adrian Wojtaszak",
+     "bench": false
+    },
+    {
+     "min": "75",
+     "m": 75.0,
+     "type": "sub",
+     "team": "G",
+     "player": "Beniamin Kojm",
+     "other": "Oskar Palusiński",
+     "bench": false
+    },
+    {
+     "min": "85",
+     "m": 85.0,
+     "type": "sub",
+     "team": "O",
+     "player": "Krzysztof Kolasa",
+     "other": "Dawid Piskozub",
+     "bench": false
+    },
+    {
+     "min": "89",
+     "m": 89.0,
+     "type": "goal",
+     "team": "O",
+     "player": "Dawid Skiernik",
+     "other": null,
+     "bench": false
+    }
+   ],
+   "lineup_only_cards": []
+  }
+ ]
+}

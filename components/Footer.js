@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useLang } from '../app/LanguageContext';
+import { TAX } from '../app/data';
 
 
 export default function Footer() {
@@ -20,6 +21,11 @@ export default function Footer() {
               GÓRNIK<br /><span style={{ color: 'var(--gold)' }}>BRZESZCZE</span>
             </div>
             <p style={{ color: 'var(--grey)', fontSize: '0.85rem', lineHeight: 1.7, whiteSpace: 'pre-line' }}>{tr.tagline}</p>
+            {lang !== 'en' && (
+              <p style={{ marginTop: '1rem', fontSize: '0.85rem', lineHeight: 1.6 }}>
+                <Link href="/#podatek" style={{ color: 'var(--gold)' }}>Przekaż 1,5% podatku · KRS {TAX.krs}</Link>
+              </p>
+            )}
           </div>
           <div>
             <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 3, fontSize: '0.75rem', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '1rem' }}>{tr.nav_label}</div>
@@ -29,16 +35,17 @@ export default function Footer() {
           </div>
           <div>
             <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 3, fontSize: '0.75rem', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '1rem' }}>{tr.club_label}</div>
-            {[['/news', nav.news], ['/history', nav.history], ['/100-years', lang === 'en' ? '100 years' : '100 lat'], ['/poland-lithuania-1993', lang === 'en' ? 'Poland v Lithuania 1993' : 'Polska – Litwa 1993'], ['/gallery', nav.gallery], ['/sponsors', nav.sponsors], ['/contact', nav.contact]].map(([href, label]) => (
+            {[['/news', nav.news], ['/history', nav.history], ['/100-years', lang === 'en' ? '100 years' : '100 lat'], ['/poland-lithuania-1993', lang === 'en' ? 'Poland v Lithuania 1993' : 'Polska – Litwa 1993'], ['/team#youth', lang === 'en' ? 'Youth teams' : 'Młodzież'], ['/gallery', nav.gallery], ['/sponsors', nav.sponsors], ['/contact', nav.contact]].map(([href, label]) => (
               <Link key={href} href={href} style={{ display: 'block', color: 'var(--grey)', fontSize: '0.9rem', marginBottom: '0.4rem' }}>{label}</Link>
             ))}
           </div>
           <div>
             <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 3, fontSize: '0.75rem', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '1rem' }}>{tr.contact_label}</div>
             <p style={{ color: 'var(--grey)', fontSize: '0.85rem', lineHeight: 2 }}>
-              ul. Sportowa 1<br />32-620 Brzeszcze<br />
+              ul. Ofiar Oświęcimia 68<br />32-620 Brzeszcze<br />
               {lang === 'en' ? 'Poland' : 'Polska'}<br />
-              kontakt@gornikbrzeszcze.pl
+              Tel. 32 211 10 19<br />
+              gornik1922brzeszcze@interia.pl
             </p>
             <div style={{ marginTop: '1rem' }}>
               <a href="https://www.facebook.com/gornikbrzeszcze" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--grey)' }}>Facebook →</a>
