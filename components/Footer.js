@@ -17,7 +17,7 @@ export default function Footer() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '3rem', marginBottom: '3rem' }}>
           <div>
             <img src="/crest.webp" alt="KS Górnik Brzeszcze" width="58" height="72" style={{ height: 72, width: 'auto', marginBottom: '1rem' }} />
-            <div style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', letterSpacing: 2, marginBottom: '0.5rem' }}>
+            <div translate="no" className="notranslate" style={{ fontFamily: 'var(--font-display)', fontSize: '2rem', letterSpacing: 2, marginBottom: '0.5rem' }}>
               GÓRNIK<br /><span style={{ color: 'var(--gold)' }}>BRZESZCZE</span>
             </div>
             <p style={{ color: 'var(--grey)', fontSize: '0.85rem', lineHeight: 1.7, whiteSpace: 'pre-line' }}>{tr.tagline}</p>

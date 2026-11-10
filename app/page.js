@@ -97,7 +97,7 @@ export default function HomePage() {
         <div className="container" style={{ position: 'relative', zIndex: 2, width: '100%' }}>
           <div style={{ maxWidth: 750 }}>
             <div style={{ display: 'inline-block', background: 'var(--green)', border: '1px solid var(--gold)', fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '0.75rem', letterSpacing: '4px', textTransform: 'uppercase', padding: '0.4rem 1rem', marginBottom: '2rem', color: 'var(--gold)' }}>{lang === 'en' ? 'Season ' + SEASON : 'Sezon ' + SEASON}</div>
-            <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(4rem, 12vw, 10rem)', lineHeight: 0.88, letterSpacing: 2, marginBottom: '2rem' }}>
+            <h1 translate="no" className="notranslate" style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(4rem, 12vw, 10rem)', lineHeight: 0.88, letterSpacing: 2, marginBottom: '2rem' }}>
               GÓRNIK<br />
               <span style={{ color: 'var(--gold)', WebkitTextStroke: '1px var(--gold-dark)', WebkitTextFillColor: 'var(--gold)' }}>BRZESZCZE</span>
             </h1>

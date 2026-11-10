@@ -5,23 +5,21 @@ import { useLang } from '../LanguageContext';
 
 const timeline = {
   pl: [
-    { year: '1922', title: 'Początki', desc: 'Początki zorganizowanej działalności sportowej w Brzeszczach. Pierwsi zawodnicy związani z lokalną kopalnią węgla.' },
-    { year: '1923', title: 'Oficjalne założenie', desc: 'Pierwszy klub piłkarski zostaje zgłoszony do władz piłkarskich. Klub powstaje z inicjatywy pracowników kopalni Brzeszcze.' },
+    { year: '1922', title: 'Założenie klubu', desc: 'Klub zostaje założony jako KS Strzała.' },
     { year: '1925', title: 'Pierwsze rozgrywki', desc: 'Drużyna startuje w klasie C i szybko awansuje do wyższej ligi.' },
     { year: '1930', title: 'Klasa B', desc: 'Przez 5 lat klub gra w klasie B, budując fundamenty pod dalszy rozwój.' },
     { year: '1957', title: 'Narodziny Górnika', desc: 'Klub zmienia nazwę na Klub Sportowy Górnik. 17 lipca rejestracja w PKPN w Krakowie jako samodzielne stowarzyszenie.' },
     { year: '1980s', title: 'Złota era', desc: 'Najlepszy okres w historii klubu. Silna pozycja w regionalnych rozgrywkach, liczna kibicowska baza.' },
-    { year: '2023', title: 'Stulecie', desc: 'Klub obchodzi 100-lecie oficjalnego założenia. Uroczyste obchody z udziałem kibiców i byłych zawodników.' },
+    { year: '2022', title: 'Stulecie', desc: 'Klub obchodzi 100-lecie istnienia. Dzień turniejów młodzieżowych i uroczystości kończy jubileuszowy mecz z Górnikiem Zabrze, 18 czerwca 2022.' },
     { year: '2025', title: 'Dziś', desc: 'KS Górnik Brzeszcze prowadzi trzy drużyny i aktywną akademię młodzieżową.' },
   ],
   en: [
-    { year: '1922', title: 'Origins', desc: 'The beginnings of organised sport in Brzeszcze. The first players were workers at the local coal mine.' },
-    { year: '1923', title: 'Official founding', desc: 'The first football club is registered with the football authorities, founded on the initiative of workers at the Brzeszcze mine.' },
+    { year: '1922', title: 'Founding of the club', desc: 'The club is founded as KS Strzała.' },
     { year: '1925', title: 'First competitions', desc: 'The team enters class C and quickly earns promotion to a higher division.' },
     { year: '1930', title: 'Class B', desc: 'For five years the club competes in class B, building the foundations for future growth.' },
     { year: '1957', title: 'Birth of Górnik', desc: 'The club is renamed KS Górnik. On 17 July it is registered in Kraków as an independent association.' },
     { year: '1980s', title: 'Golden era', desc: 'The best period in the club\'s history. Strong position in regional leagues, large supporter base.' },
-    { year: '2023', title: 'Centenary', desc: 'The club celebrates 100 years since its official founding, with celebrations attended by fans and former players.' },
+    { year: '2022', title: 'Centenary', desc: 'The club celebrates its 100th anniversary. A day of youth tournaments and celebrations ends with the jubilee friendly against Górnik Zabrze on 18 June 2022.' },
     { year: '2025', title: 'Today', desc: 'KS Górnik Brzeszcze runs three teams and an active youth academy.' },
   ],
 };

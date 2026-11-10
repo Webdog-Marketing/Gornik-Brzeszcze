@@ -49,7 +49,7 @@ export default function Navbar() {
           <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
             <img src="/crest.webp" alt="KS Górnik Brzeszcze" width="38" height="48"
               style={{ height: 48, width: 'auto', flexShrink: 0, filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.5))' }} />
-            <div>
+            <div translate="no" className="notranslate">
               <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', letterSpacing: 1, lineHeight: 1 }}>GÓRNIK</div>
               <div style={{ fontFamily: 'var(--font-heading)', fontSize: '0.65rem', letterSpacing: 3, color: 'var(--gold)', lineHeight: 1, marginTop: 2 }}>BRZESZCZE</div>
             </div>
