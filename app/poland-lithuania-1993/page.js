@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useLang } from '../LanguageContext';
+import { PHOTOS } from '../data';
 
 const PZPN_URL = 'https://www.laczynaspilka.pl/biblioteka/mecze/polska-litwa-11-31031993';
 const VIDEO_ID = 'dPkr5bTY9y0';
@@ -55,7 +56,7 @@ const C = {
     pzpnCta: 'Pełna relacja, składy i notatki statystyka – Biblioteka PZPN →',
     stadiumLabel: 'Stadion',
     stadium: 'Stadion Górnika otwarto w 1954 roku dzięki wsparciu finansowemu kopalni „Brzeszcze”. Spotkanie z Litwą pozostaje jedynym meczem reprezentacji Polski rozegranym na tym obiekcie.',
-    photosLabel: 'Z archiwum klubu',
+    photosLabel: 'Zdjęcia z meczu',
     photoPh: 'Więcej zdjęć – wkrótce',
     sourcesLabel: 'Źródła',
     historyLabel: '← Historia klubu',
@@ -104,7 +105,7 @@ const C = {
     pzpnCta: 'Full report, line-ups and match notes – PZPN Library →',
     stadiumLabel: 'The stadium',
     stadium: 'The Górnik stadium opened in 1954 with financial support from the Brzeszcze coal mine. The match against Lithuania remains the only Poland national-team game played there.',
-    photosLabel: 'From the club archive',
+    photosLabel: 'Photos from the match',
     photoPh: 'More photos – coming soon',
     sourcesLabel: 'Sources',
     historyLabel: '← Club history',
@@ -140,12 +141,12 @@ export default function Poland1993Page() {
             <div className="scoreboard-row">
               <div>
                 <div className="scoreboard-team">{c.home}</div>
-                <div className="scoreboard-scorers">{c.scorerHome}</div>
+                <div className="scoreboard-scorers notranslate" translate="no">{c.scorerHome}</div>
               </div>
               <div className="scoreboard-score">1 : 1</div>
               <div>
                 <div className="scoreboard-team">{c.away}</div>
-                <div className="scoreboard-scorers">{c.scorerAway}</div>
+                <div className="scoreboard-scorers notranslate" translate="no">{c.scorerAway}</div>
               </div>
             </div>
             <div className="scoreboard-meta">
@@ -212,7 +213,7 @@ export default function Poland1993Page() {
         <div className="container">
           <div className="eyebrow">{c.lineupLabel}</div>
           <h2 className="block-title">{c.lineupTitle}</h2>
-          <div className="lineup-wrap">
+          <div className="lineup-wrap notranslate" translate="no">
             <ul className="lineup">
               {XI.map(([n, name]) => (
                 <li key={n}><span className="lineup-no">{n}</span><span>{name}</span></li>
@@ -241,7 +242,14 @@ export default function Poland1993Page() {
         <div className="container">
           <div className="eyebrow">{c.photosLabel}</div>
           <div className="photo-strip">
-            {[0, 1, 2].map(i => <div key={i} className="photo-ph">{c.photoPh}</div>)}
+            {PHOTOS.filter(p => p.set === '1993').map(p => (
+              <figure key={p.src} className="photo-tile">
+                <a href={p.src} target="_blank" rel="noopener noreferrer">
+                  <img src={p.src} alt={p.cap[lang]} width={p.w} height={p.h} loading="lazy" />
+                </a>
+                <figcaption>{p.cap[lang]}</figcaption>
+              </figure>
+            ))}
           </div>
 
           <p className="sources" style={{ marginTop: '2.5rem' }}>

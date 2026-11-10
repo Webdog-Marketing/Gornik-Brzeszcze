@@ -1,0 +1,25 @@
+{
+  "group": "Trampkarz",
+  "born": "2012–2013",
+  "season": "2026/27",
+  "competition": "III liga okręgowa Trampkarz (MB)",
+  "showFullNames": true,
+  "results": [
+    { "date": "2026-08-25", "time": "15:30", "home": "Sola Oświęcim", "away": "Górnik Brzeszcze", "hs": 15, "as": 0 },
+    { "date": "2026-09-01", "time": "16:00", "home": "LKS Gorzów", "away": "Górnik Brzeszcze", "hs": 2, "as": 5 },
+    { "date": "2026-09-08", "time": "16:00", "home": "Górnik Brzeszcze", "away": "LKS Bulowice", "hs": 2, "as": 5 },
+    { "date": "2026-09-22", "time": "15:30", "home": "Górnik Brzeszcze", "away": "LKS Rajsko", "hs": 2, "as": 7 },
+    { "date": "2026-10-06", "time": "15:00", "home": "Górnik Brzeszcze", "away": "Zatorzanka Zator", "hs": 2, "as": 14 }
+  ],
+  "squad": [
+    "Gabriel Chrostek", "Olivier Cygan", "Leszek Jakóbik", "Sebastian Jaromin", "Krzysztof Jurczyk",
+    "Oskar Kozak", "Łukasz Krajniewski", "Kamil Kwaśny", "Nikodem Ludwig", "Dariusz Niemczyk",
+    "Kornel Walczyk", "Wojciech Wielek", "Mateusz Wiktorek", "Gabril Zięcina"
+  ],
+  "notes": [
+    "Source: MPZPN app screenshots (Matches and Players tabs of Górnik Brzeszcze Trampkarz). No league table, squad numbers, line-ups or match events were available.",
+    "All five results were played on Tuesdays; dates and kick-off times are as shown in MPZPN, the year is taken from the 2026/27 season.",
+    "The competition name is cut off in the screenshots after 'III liga okręgowa Trampkarz (MB)'.",
+    "'Gabril Zięcina' is spelt exactly as it appears in MPZPN (possibly 'Gabriel')."
+  ]
+}

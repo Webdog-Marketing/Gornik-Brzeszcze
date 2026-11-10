@@ -82,13 +82,18 @@ export default function ResultsPage() {
                   ? 'Szczegóły meczów (strzelcy, kartki, składy) dla wszystkich ' + coverage().played + ' spotkań sezonu.'
                   : 'Szczegóły meczów (strzelcy, kartki, składy) dostępne dla ' + coverage().recorded + ' z ' + coverage().played + ' meczów.')}
           </p>
+          <p style={{ margin: '-0.75rem 0 1.5rem' }}>
+            <a href="/team#trampkarz" style={{ color: 'var(--gold)', fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 2, fontSize: '0.78rem', textTransform: 'uppercase' }}>
+              {lang === 'en' ? 'Trampkarz results →' : 'Wyniki Trampkarzy →'}
+            </a>
+          </p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
             {RESULTS.map((r, i) => {
               const o = outcome(r);
               const b = BADGE[o];
               const sub = r.comp === 'cup' ? c.cup : r.round + '. ' + c.round;
               return (
-                <div key={i} className="result-block">
+                <div key={i} className="result-block notranslate" translate="no">
                 <div className="result-row">
                   <div className="result-date">
                     <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '0.85rem' }}>{fmtDate(r.date, lang, { year: undefined })}</div>
@@ -117,7 +122,7 @@ export default function ResultsPage() {
             {lang === 'en' ? c.after + ' ' + TABLE_AFTER_ROUND + ' ' + c.afterSuffix : c.after + ' ' + TABLE_AFTER_ROUND + '. ' + c.afterSuffix} · {c.source}
           </p>
           <div className="tbl-wrap">
-            <table className="tbl">
+            <table className="tbl notranslate" translate="no">
               <thead>
                 <tr>
                   <th>{c.cols[0]}</th><th className="team">{c.cols[1]}</th><th>{c.cols[2]}</th>
