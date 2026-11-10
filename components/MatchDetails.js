@@ -24,7 +24,7 @@ export default function MatchDetails({ m, lang }) {
   const cardLabel = t => (t === 'yellow' ? c.yellow : t === 'yellow2' ? c.second : c.red);
 
   return (
-    <details className="match-details">
+    <details className="match-details notranslate" translate="no">
       <summary>{c.summary}</summary>
       <div className="md-grid">
         <div>
