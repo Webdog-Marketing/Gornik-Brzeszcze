@@ -1,6 +1,10 @@
 'use client';
 import Link from 'next/link';
 import { useLang } from '../LanguageContext';
+import { PHOTOS } from '../data';
+
+const VIDEO_ID = '_2UNLnbaMsQ';
+const ARTICLE = 'https://dziennikzachodni.pl/gornik-brzeszcze-swietuje-jubileusz-100lecia-tak-jak-50-lat-temu-przyjedzie-gornik-zabrze-wtedy-byl-z-szarmachem-gorgoniem/gh/c2-16428039';
 
 const C = {
   pl: {
@@ -32,8 +36,14 @@ const C = {
     ],
     alumniLabel: 'Wychowankowie i zawodnicy',
     alumni: 'Do piłkarzy Górnika Brzeszcze, którzy mają za sobą występy w najwyższych ligach, należą m.in. Tadeusz Olma, Jan Bielenin, Krzysztof Chrapek i Arkadiusz Kłoda.',
-    photosLabel: 'Z archiwum klubu',
-    photoPh: 'Zdjęcia z jubileuszu – wkrótce',
+    photosLabel: 'Zdjęcia z jubileuszu',
+    videoLabel: 'Wideo',
+    videoTitle: 'KULISY MECZU',
+    videoNote: 'Kulisy jubileuszowego meczu z Górnikiem Zabrze – wideo GórnikTV z 21 czerwca 2022 roku.',
+    videoLink: 'Obejrzyj na YouTube →',
+    videoFrameTitle: 'Kulisy meczu Górnik Brzeszcze – Górnik Zabrze (GórnikTV)',
+    articleIntro: 'Więcej o jubileuszu i wizycie z 1972 roku:',
+    articleLabel: 'Dziennik Zachodni – Górnik Brzeszcze świętuje jubileusz 100-lecia',
     sources: 'Źródła: relacje Fakty Oświęcim, Dziennika Zachodniego, Gazety Krakowskiej i Nasze Miasto Oświęcim.',
     moreLabel: 'Zobacz też: Polska – Litwa 1993 →',
     historyLabel: '← Historia klubu',
@@ -67,8 +77,14 @@ const C = {
     ],
     alumniLabel: 'Players from our ranks',
     alumni: 'Górnik Brzeszcze players who have gone on to play in Poland’s top flight include Tadeusz Olma, Jan Bielenin, Krzysztof Chrapek and Arkadiusz Kłoda.',
-    photosLabel: 'From the club archive',
-    photoPh: 'Anniversary photos – coming soon',
+    photosLabel: 'Photos from the day',
+    videoLabel: 'Video',
+    videoTitle: 'BEHIND THE SCENES',
+    videoNote: 'Behind the scenes of the jubilee match against Górnik Zabrze – video by GórnikTV, 21 June 2022.',
+    videoLink: 'Watch on YouTube →',
+    videoFrameTitle: 'Behind the scenes of Górnik Brzeszcze v Górnik Zabrze (GórnikTV)',
+    articleIntro: 'More on the anniversary and the 1972 visit:',
+    articleLabel: 'Dziennik Zachodni – Górnik Brzeszcze celebrates its 100th anniversary',
     sources: 'Sources: match reports in Fakty Oświęcim, Dziennik Zachodni, Gazeta Krakowska and Nasze Miasto Oświęcim.',
     moreLabel: 'Also see: Poland v Lithuania 1993 →',
     historyLabel: '← Club history',
@@ -100,7 +116,7 @@ export default function CentenaryPage() {
           <div className="eyebrow">{c.dayLabel}</div>
           <h2 className="block-title">{c.dayTitle}</h2>
           <div className="scoreboard">
-            <div className="scoreboard-row">
+            <div className="scoreboard-row notranslate" translate="no">
               <div className="scoreboard-team">
                 <img src="/crest.webp" alt="KS Górnik Brzeszcze" width="75" height="96" />
                 {c.home}
@@ -133,7 +149,7 @@ export default function CentenaryPage() {
         <div className="container">
           <div className="eyebrow">{c.goalsLabel}</div>
           <h2 className="block-title">{c.goalsTitle}</h2>
-          <ul className="goal-list">
+          <ul className="goal-list notranslate" translate="no">
             {GOALS.map((g, i) => g.length === 1
               ? <li key={i} className="ht"><span /><span>{c.ht}</span></li>
               : <li key={i}><span className="goal-min">{g[0]}</span><span>{g[1]}</span></li>
@@ -165,11 +181,43 @@ export default function CentenaryPage() {
 
       <section className="section">
         <div className="container">
+          <div className="eyebrow">{c.videoLabel}</div>
+          <h2 className="block-title">{c.videoTitle}</h2>
+          <div className="video-wrap">
+            <iframe
+              src={'https://www.youtube-nocookie.com/embed/' + VIDEO_ID}
+              title={c.videoFrameTitle}
+              loading="lazy"
+              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+              allowFullScreen
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
+          </div>
+          <p style={{ marginTop: '1rem', color: 'var(--grey)', fontSize: '0.85rem' }}>
+            {c.videoNote}{' '}
+            <a href={'https://www.youtube.com/watch?v=' + VIDEO_ID} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)', fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 2, fontSize: '0.78rem', textTransform: 'uppercase' }}>{c.videoLink}</a>
+          </p>
+        </div>
+      </section>
+
+      <section className="section" style={{ background: 'var(--dark)' }}>
+        <div className="container">
           <div className="eyebrow">{c.photosLabel}</div>
           <div className="photo-strip">
-            {[0, 1, 2].map(i => <div key={i} className="photo-ph">{c.photoPh}</div>)}
+            {PHOTOS.filter(p => p.set === '2022').map(p => (
+              <figure key={p.src} className="photo-tile">
+                <a href={p.src} target="_blank" rel="noopener noreferrer">
+                  <img src={p.src} alt={p.cap[lang]} width={p.w} height={p.h} loading="lazy" />
+                </a>
+                <figcaption>{p.cap[lang]}</figcaption>
+              </figure>
+            ))}
           </div>
-          <p className="sources" style={{ marginTop: '2.5rem' }}>{c.sources}</p>
+          <p className="sources" style={{ marginTop: '2.5rem' }}>
+            {c.sources}<br />
+            {c.articleIntro}{' '}
+            <a href={ARTICLE} target="_blank" rel="noopener noreferrer">{c.articleLabel}</a>
+          </p>
           <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem', marginTop: '2rem' }}>
             <Link href="/history" style={{ color: 'var(--gold)', fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 2, fontSize: '0.85rem', textTransform: 'uppercase' }}>{c.historyLabel}</Link>
             <Link href="/poland-lithuania-1993" style={{ color: 'var(--gold)', fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 2, fontSize: '0.85rem', textTransform: 'uppercase' }}>{c.moreLabel}</Link>

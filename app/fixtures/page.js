@@ -53,7 +53,7 @@ export default function FixturesPage() {
               const isHome = f.home === CLUB_TEAM;
               const isNext = nextDated && f === nextDated;
               return (
-                <div key={i} className="fixture-row" style={isNext ? { borderColor: 'var(--gold)' } : undefined}>
+                <div key={i} className="fixture-row notranslate" translate="no" style={isNext ? { borderColor: 'var(--gold)' } : undefined}>
                   <div className="fixture-date">
                     {f.date ? (
                       <>

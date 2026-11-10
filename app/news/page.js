@@ -62,9 +62,9 @@ export default function NewsPage() {
                   <div style={{ color: 'var(--grey)', fontSize: '0.75rem', fontFamily: 'var(--font-heading)', letterSpacing: 2, marginBottom: '1.25rem', textTransform: 'uppercase' }}>
                     {fmtDate(r.date, lang)} · {r.comp === 'cup' ? c.cup : c.league + ', ' + r.round + '. ' + c.round}
                   </div>
-                  <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '1.05rem', lineHeight: 1.4 }}>{r.home}</div>
+                  <div translate="no" style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '1.05rem', lineHeight: 1.4 }}>{r.home}</div>
                   <div style={{ fontFamily: 'var(--font-display)', fontSize: '2.6rem', letterSpacing: 4, color: OUT[o], lineHeight: 1.2, margin: '0.25rem 0' }}>{r.hs} : {r.as}</div>
-                  <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '1.05rem', lineHeight: 1.4 }}>{r.away}</div>
+                  <div translate="no" style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '1.05rem', lineHeight: 1.4 }}>{r.away}</div>
                 </div>
               );
             })}

@@ -63,7 +63,7 @@ function Side({ name, label }) {
       {ours
         ? <img src="/crest.webp" alt="KS Górnik Brzeszcze" width="78" height="100" style={{ height: 100, width: 'auto', margin: '0 auto 1rem' }} />
         : <div style={{ width: 80, height: 80, background: 'var(--dark-3)', clipPath: 'polygon(50% 0%, 100% 15%, 100% 75%, 50% 100%, 0% 75%, 0% 15%)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'var(--font-display)', fontSize: '1.8rem', margin: '10px auto 1rem', color: 'var(--grey)' }}>{name.replace(/^(LKS|KS)\s/, '')[0]}</div>}
-      <div style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', letterSpacing: 2, lineHeight: 1.1 }}>{name.toUpperCase()}</div>
+      <div translate="no" style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', letterSpacing: 2, lineHeight: 1.1 }}>{name.toUpperCase()}</div>
       <div style={{ color: 'var(--grey)', fontSize: '0.8rem', marginTop: '0.25rem' }}>{label}</div>
     </div>
   );
@@ -179,9 +179,9 @@ export default function HomePage() {
                   <div style={{ color: 'var(--grey)', fontSize: '0.75rem', fontFamily: 'var(--font-heading)', letterSpacing: 2, marginBottom: '1.25rem', textTransform: 'uppercase' }}>
                     {fmtDate(r.date, lang, { year: undefined })} · {r.comp === 'cup' ? c.cup : r.round + '. ' + c.round}
                   </div>
-                  <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '1.05rem', lineHeight: 1.4 }}>{r.home}</div>
+                  <div translate="no" style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '1.05rem', lineHeight: 1.4 }}>{r.home}</div>
                   <div style={{ fontFamily: 'var(--font-display)', fontSize: '2.6rem', letterSpacing: 4, color: OUT[o], lineHeight: 1.2, margin: '0.25rem 0' }}>{r.hs} : {r.as}</div>
-                  <div style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '1.05rem', lineHeight: 1.4 }}>{r.away}</div>
+                  <div translate="no" style={{ fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '1.05rem', lineHeight: 1.4 }}>{r.away}</div>
                 </div>
               );
             })}

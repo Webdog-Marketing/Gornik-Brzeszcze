@@ -70,7 +70,7 @@ export default function AboutPage() {
           {BOARD_PHOTO
             ? <img className="team-photo" src={BOARD_PHOTO} alt={BOARD_COPY[lang].alt} style={{ marginBottom: '2rem' }} />
             : <div className="team-photo-ph" style={{ marginBottom: '2rem' }}>{BOARD_COPY[lang].photoPh}</div>}
-          <div className="board-grid">
+          <div className="board-grid notranslate" translate="no">
             {BOARD.map((b, i) => (
               <div key={b.name} className={'board-card' + (i === 0 ? ' lead' : '')}>
                 <div className="board-name">{b.name}</div>
