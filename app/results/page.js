@@ -1,6 +1,7 @@
 'use client';
 import { useLang } from '../LanguageContext';
 import MatchDetails from '../../components/MatchDetails';
+import Link from '../../components/LocLink';
 import { matchByDate, coverage } from '../stats';
 import { RESULTS, TABLE, TABLE_AFTER_ROUND, CLUB_TEAM, REGIO_URL, REGIO_TABLE_URL, fmtDate, outcome, leagueRecord, PAGE_PHOTOS } from '../data';
 
@@ -83,9 +84,9 @@ export default function ResultsPage() {
                   : 'Szczegóły meczów (strzelcy, kartki, składy) dostępne dla ' + coverage().recorded + ' z ' + coverage().played + ' meczów.')}
           </p>
           <p style={{ margin: '-0.75rem 0 1.5rem' }}>
-            <a href="/team#trampkarz" style={{ color: 'var(--gold)', fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 2, fontSize: '0.78rem', textTransform: 'uppercase' }}>
+            <Link href="/team#trampkarz" style={{ color: 'var(--gold)', fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: 2, fontSize: '0.78rem', textTransform: 'uppercase' }}>
               {lang === 'en' ? 'Trampkarz results →' : 'Wyniki Trampkarzy →'}
-            </a>
+            </Link>
           </p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
             {RESULTS.map((r, i) => {

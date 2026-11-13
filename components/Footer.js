@@ -1,5 +1,5 @@
 'use client';
-import Link from 'next/link';
+import Link from './LocLink';
 import { useLang } from '../app/LanguageContext';
 import { TAX } from '../app/data';
 

@@ -1,14 +1,15 @@
 'use client';
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
+import Link from './LocLink';
 import { usePathname } from 'next/navigation';
-import { useLang } from '../app/LanguageContext';
+import { useLang, stripLang } from '../app/LanguageContext';
 
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
+  const here = stripLang(pathname || '/');
   const { lang, setLang, t } = useLang();
   const tr = t.nav;
   
@@ -61,8 +62,8 @@ export default function Navbar() {
               <Link key={l.href} href={l.href} style={{
                 fontFamily: 'var(--font-heading)', fontWeight: 600, fontSize: '0.75rem',
                 letterSpacing: '1.5px', textTransform: 'uppercase', padding: '0.4rem 0.5rem',
-                color: pathname === l.href ? 'var(--gold)' : 'var(--light-grey)',
-                borderBottom: pathname === l.href ? '2px solid var(--gold)' : '2px solid transparent',
+                color: here === l.href ? 'var(--gold)' : 'var(--light-grey)',
+                borderBottom: here === l.href ? '2px solid var(--gold)' : '2px solid transparent',
                 transition: 'color 0.2s',
               }}>{l.label}</Link>
             ))}
@@ -120,7 +121,7 @@ export default function Navbar() {
         {links.map(l => (
           <Link key={l.href} href={l.href} style={{
             fontFamily: 'var(--font-display)', fontSize: '2rem', letterSpacing: 2,
-            color: pathname === l.href ? 'var(--gold)' : 'var(--white)',
+            color: here === l.href ? 'var(--gold)' : 'var(--white)',
             padding: '0.5rem 0', borderBottom: '1px solid var(--dark-3)',
           }}>{l.label}</Link>
         ))}

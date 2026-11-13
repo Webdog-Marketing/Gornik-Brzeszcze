@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import Link from 'next/link';
+import Link from '../components/LocLink';
 import { useLang } from './LanguageContext';
 import { useToday } from './useToday';
 import { FIXTURES, RESULTS, CLUB, CLUB_TEAM, SEASON, TAX, SPONSORS, fmtDate, outcome } from './data';
