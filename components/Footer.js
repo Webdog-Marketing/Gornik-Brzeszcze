@@ -1,5 +1,6 @@
 'use client';
 import Link from './LocLink';
+import { socialLinks } from '../app/socials';
 import { useLang } from '../app/LanguageContext';
 import { TAX } from '../app/data';
 
@@ -48,7 +49,9 @@ export default function Footer() {
               gornik1922brzeszcze@interia.pl
             </p>
             <div style={{ marginTop: '1rem' }}>
-              <a href="https://www.facebook.com/gornikbrzeszcze" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--grey)' }}>Facebook →</a>
+              {socialLinks(lang).map(([label, url]) => (
+                <a key={url} href={url} target="_blank" rel="noopener noreferrer" style={{ display: 'block', color: 'var(--grey)', marginBottom: '0.3rem' }}>{label} →</a>
+              ))}
             </div>
           </div>
         </div>

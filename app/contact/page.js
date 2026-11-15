@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { useLang } from '../LanguageContext';
 import { CLUB, PAGE_PHOTOS } from '../data';
+import { socialLinks } from '../socials';
 
 const T = {
   pl: {
@@ -82,7 +83,11 @@ export default function ContactPage() {
               </div>
               <div style={{ marginTop: '1rem', padding: '1.25rem', background: 'var(--dark-2)', border: '1px solid var(--dark-3)' }}>
                 <div style={{ color: 'var(--grey)', fontSize: '0.75rem', fontFamily: 'var(--font-heading)', letterSpacing: 2, textTransform: 'uppercase', marginBottom: '0.75rem' }}>{c.social}</div>
-                <a href={CLUB.facebook} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)', fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '0.9rem', letterSpacing: 1 }}>Facebook →</a>
+                <div style={{ display: 'flex', gap: '1.25rem', flexWrap: 'wrap' }}>
+                  {socialLinks(lang).map(([label, url]) => (
+                    <a key={url} href={url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)', fontFamily: 'var(--font-heading)', fontWeight: 700, fontSize: '0.9rem', letterSpacing: 1 }}>{label} →</a>
+                  ))}
+                </div>
               </div>
             </div>
 

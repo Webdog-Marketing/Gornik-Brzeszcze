@@ -19,6 +19,9 @@ export const CLUB = {
   stadiumAddress: 'ul. Ofiar Oświęcimia 49, 32-620 Brzeszcze',
   phone: '32 211 10 19',          // listed on RegioWyniki – please confirm
   facebook: 'https://www.facebook.com/gornikbrzeszcze',
+  instagramEn: 'https://www.instagram.com/gornikbrzeszcze/',
+  instagramPl: 'https://www.instagram.com/ksg_1922',
+  linkedin: 'https://www.linkedin.com/company/ks-g%C3%B3rnik-brzeszcze/',
   email: 'gornik1922brzeszcze@interia.pl',
 };
 
