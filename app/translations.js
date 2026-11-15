@@ -49,7 +49,7 @@ export const t = {
       p3: 'Dziś klub prowadzi trzy drużyny: pierwszą drużynę seniorów, rezerwy oraz akademię młodzieżową, kształcąc kolejne pokolenia zawodników.',
       facts: [
         ['Rok założenia', '1922', 'Klub założony jako KS Strzała'],
-        ['Stadion', 'Stadion Górnika', 'Przy ul. Sportowej w Brzeszczach'],
+        ['Stadion', 'Stadion Górnika', 'ul. Ofiar Oświęcimia 68, Brzeszcze'],
         ['Barwy', 'Zielono-biało-czarne', 'Kolory reprezentujące ducha górniczego'],
         ['Zarząd', 'Zarząd KS Górnik', 'Walne zebranie członków wybiera władze klubu'],
       ],
@@ -79,7 +79,7 @@ export const t = {
       home: 'Domowy',
       away: 'Wyjazdowy',
       stadium: '📍 Stadion Górnika Brzeszcze',
-      address: 'ul. Sportowa 1, 32-620 Brzeszcze',
+      address: 'ul. Ofiar Oświęcimia 68, 32-620 Brzeszcze',
     },
     results: {
       subtitle: 'Sezon 2024/25',
@@ -128,7 +128,7 @@ export const t = {
       info_label: 'Dane kontaktowe',
       info_title: 'ODEZWIJ SIĘ DO NAS',
       details: [
-        ['📍', 'Adres', 'ul. Sportowa 1\n32-620 Brzeszcze, Polska'],
+        ['📍', 'Adres', 'ul. Ofiar Oświęcimia 68\n32-620 Brzeszcze, Polska'],
         ['📧', 'E-mail', 'kontakt@gornikbrzeszcze.pl'],
         ['📱', 'Telefon', '+48 000 000 000'],
         ['🕐', 'Biuro czynne', 'Pon–Pt: 16:00–19:00\nSob: 10:00–14:00'],
@@ -200,7 +200,7 @@ export const t = {
       p3: 'Today the club runs three teams: the senior first team, reserves, and a youth academy, developing the next generations of players.',
       facts: [
         ['Founded', '1922', 'Founded as KS Strzała'],
-        ['Stadium', 'Górnik Stadium', 'On ul. Sportowa in Brzeszcze'],
+        ['Stadium', 'Górnik Stadium', 'ul. Ofiar Oświęcimia 68, Brzeszcze'],
         ['Colours', 'Green, white & black', 'Colours representing the spirit of the miners'],
         ['Board', 'KS Górnik Board', 'The general assembly of members elects the club\'s governing body'],
       ],
@@ -230,7 +230,7 @@ export const t = {
       home: 'Home',
       away: 'Away',
       stadium: '📍 Górnik Brzeszcze Stadium',
-      address: 'ul. Sportowa 1, 32-620 Brzeszcze',
+      address: 'ul. Ofiar Oświęcimia 68, 32-620 Brzeszcze',
     },
     results: {
       subtitle: 'Season 2024/25',
@@ -279,7 +279,7 @@ export const t = {
       info_label: 'Contact details',
       info_title: 'GET IN TOUCH',
       details: [
-        ['📍', 'Address', 'ul. Sportowa 1\n32-620 Brzeszcze, Poland'],
+        ['📍', 'Address', 'ul. Ofiar Oświęcimia 68\n32-620 Brzeszcze, Poland'],
         ['📧', 'Email', 'kontakt@gornikbrzeszcze.pl'],
         ['📱', 'Phone', '+48 000 000 000'],
         ['🕐', 'Office hours', 'Mon–Fri: 16:00–19:00\nSat: 10:00–14:00'],
