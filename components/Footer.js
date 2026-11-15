@@ -54,7 +54,12 @@ export default function Footer() {
         </div>
         <div style={{ borderTop: '1px solid var(--dark-3)', paddingTop: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
           <p style={{ color: 'var(--grey)', fontSize: '0.8rem' }}>© {new Date().getFullYear()} KS Górnik Brzeszcze. {tr.copyright}</p>
-          <p style={{ color: 'var(--grey)', fontSize: '0.8rem' }}>{tr.founded}</p>
+          <p style={{ color: 'var(--grey)', fontSize: '0.8rem' }}>
+            <Link href="/privacy" style={{ color: 'var(--grey)', textDecoration: 'underline' }}>{lang === 'en' ? 'Privacy policy' : 'Polityka prywatności'}</Link>
+            {' · '}
+            <button onClick={() => window.dispatchEvent(new Event('gornik-cookie-settings'))} style={{ background: 'none', border: 0, padding: 0, color: 'var(--grey)', textDecoration: 'underline', cursor: 'pointer', font: 'inherit' }}>{lang === 'en' ? 'Cookie settings' : 'Ustawienia cookies'}</button>
+            {' · '}{tr.founded}
+          </p>
         </div>
       </div>
     </footer>

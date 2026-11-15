@@ -1,5 +1,5 @@
 const BASE = 'https://gornikbrzeszcze.pl';
-const ROUTES = ['', '/about', '/team', '/fixtures', '/results', '/news', '/history', '/gallery', '/sponsors', '/contact', '/100-years', '/poland-lithuania-1993'];
+const ROUTES = ['', '/about', '/team', '/fixtures', '/results', '/news', '/history', '/gallery', '/sponsors', '/contact', '/100-years', '/poland-lithuania-1993', '/privacy'];
 
 export default function sitemap() {
   const now = new Date();
