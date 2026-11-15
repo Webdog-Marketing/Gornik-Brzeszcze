@@ -23,7 +23,7 @@ const T = {
     youthLabel: 'Akademia',
     youthTitle: 'MŁODZIEŻ',
     youthIntro: 'Od najmłodszych żaków po juniorów – nasze grupy młodzieżowe według roku urodzenia.',
-    tMore: 'Wyniki i skład →',
+    tMore: 'Wyniki →',
     tLabel: 'Trampkarz · roczniki 2012–2013',
     tTitle: 'TRAMPKARZ – SEZON 2026/27',
     tResults: 'Wyniki',
@@ -48,7 +48,7 @@ const T = {
     youthLabel: 'Academy',
     youthTitle: 'YOUTH TEAMS',
     youthIntro: 'From our youngest players up to the juniors – our youth groups by year of birth.',
-    tMore: 'Results & squad →',
+    tMore: 'Results →',
     tLabel: 'Trampkarz · born 2012–2013',
     tTitle: 'TRAMPKARZ – SEASON 2026/27',
     tResults: 'Results',
@@ -61,12 +61,6 @@ const BADGE = {
   W: { color: '#27A847', bg: 'rgba(39,168,71,0.1)', l: { pl: 'Z', en: 'W' } },
   D: { color: '#BFA163', bg: 'rgba(191,161,99,0.1)', l: { pl: 'R', en: 'D' } },
   L: { color: '#C8102E', bg: 'rgba(200,16,46,0.1)', l: { pl: 'P', en: 'L' } },
-};
-// Set "showFullNames": false in app/trampkarz.json to show first name + initial only
-const tName = n => {
-  if (TRAMPKARZ.showFullNames) return n;
-  const [first, ...rest] = n.split(' ');
-  return first + ' ' + (rest.join(' ')[0] || '') + '.';
 };
 const tRecord = () => {
   const r = { P: 0, W: 0, D: 0, L: 0, GF: 0, GA: 0 };
@@ -215,11 +209,6 @@ export default function TeamPage() {
                 );
               })}
             </div>
-
-            <h4 className="trampkarz-h">{c.tSquad} · {TRAMPKARZ.squad.length}</h4>
-            <ul className="trampkarz-squad notranslate" translate="no">
-              {TRAMPKARZ.squad.map(n => <li key={n}>{tName(n)}</li>)}
-            </ul>
           </div>
 
           <div className="youth-photos">
