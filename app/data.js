@@ -167,14 +167,11 @@ export const SPONSORS = [
   { file: 'smakosfera.jpg', name: 'Smakosfera', w: 326, h: 265 },
   { file: 'abc.jpg', name: 'ABC', w: 626, h: 226 },
   { file: 'baran.jpg', name: 'Inż. Janusz Baran', w: 720, h: 311 },
-  { file: 'bp.jpg', name: 'bp', w: 114, h: 134 },
   { file: 'zz-dolowych.jpg', name: 'Związek Zawodowy Pracowników Dołowych', w: 421, h: 420 },
   { file: 'bielbud.jpg', name: 'Bielbud Budownictwo', w: 420, h: 420 },
   { file: 'puma-auto-serwis.jpg', name: 'Puma Auto Serwis', w: 407, h: 170 },
-  { file: 'everest.jpg', name: 'Everest Budownictwo', w: 256, h: 102 },
   { file: 'loca.jpg', name: 'Loca', w: 172, h: 74 },
   { file: 'feniks.jpg', name: 'Feniks Drukarnia', w: 720, h: 277 },
-  { file: 'intermarche.jpg', name: 'Intermarché', w: 288, h: 72 },
   { file: 'leonarczyk.jpg', name: 'Grupa Leonarczyk', w: 453, h: 162 },
 ];
 
