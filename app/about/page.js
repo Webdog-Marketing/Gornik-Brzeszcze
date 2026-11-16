@@ -1,6 +1,7 @@
 'use client';
 import Link from '../../components/LocLink';
 import { useLang } from '../LanguageContext';
+import CrestMeaning from '../../components/CrestMeaning';
 import { BOARD, BOARD_PHOTO, PAGE_PHOTOS, VALUE_PHOTOS } from '../data';
 
 const BOARD_COPY = {
@@ -80,6 +81,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <CrestMeaning />
 
       <section className="section">
         <div className="container" style={{ textAlign: 'center' }}>

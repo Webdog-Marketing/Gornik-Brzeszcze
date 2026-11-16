@@ -744,3 +744,23 @@ a.youth-card.link:hover { border-color: var(--gold); transform: translateY(-3px)
 .trampkarz-squad { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.5rem; }
 .trampkarz-squad li { background: var(--dark-2); border: 1px solid var(--dark-3); border-left: 3px solid var(--gold); padding: 0.75rem 1rem; font-family: var(--font-heading); font-weight: 600; }
 @media (max-width: 480px) { .trampkarz-stats { grid-template-columns: repeat(3, 1fr); } .trampkarz-squad { grid-template-columns: 1fr 1fr; } .trampkarz-squad li { padding: 0.65rem 0.7rem; font-size: 0.85rem; } }
+
+/* ===== CREST MEANING (About) ===== */
+.crest-stage { position: relative; max-width: 900px; margin: 0 auto; aspect-ratio: 900 / 420; }
+.crest-img { position: absolute; left: 33.333%; top: 4.05%; width: 33.333%; height: auto; filter: drop-shadow(0 12px 30px rgba(0,0,0,0.6)); }
+.crest-lines { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.crest-lines line { stroke: var(--gold); stroke-width: 1.5; vector-effect: non-scaling-stroke; opacity: 0.85; }
+.crest-dot { position: absolute; width: 11px; height: 11px; margin: -5.5px 0 0 -5.5px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 3px rgba(191,163,99,0.3); }
+.crest-card { position: absolute; width: 27.8%; transform: translateY(-50%); display: flex; gap: 0.75rem; align-items: flex-start; background: var(--dark-2); border: 1px solid var(--dark-3); border-left: 3px solid var(--gold); padding: 0.9rem 1rem; }
+.crest-l { left: 0; }
+.crest-r { right: 0; }
+.crest-chip { flex: 0 0 14px; height: 14px; margin-top: 0.3rem; border-radius: 3px; border: 1px solid rgba(242,245,238,0.45); }
+.crest-card h3 { font-family: var(--font-display); font-size: 1.5rem; letter-spacing: 1px; line-height: 1; margin-bottom: 0.35rem; color: var(--gold); }
+.crest-card p { color: var(--light-grey); font-size: 0.82rem; line-height: 1.55; margin: 0; }
+.crest-motto { text-align: center; margin: 2.5rem auto 0; font-family: var(--font-display); font-size: clamp(1.4rem, 3.2vw, 2.2rem); letter-spacing: 2px; color: var(--gold); border-top: 1px solid var(--dark-3); border-bottom: 1px solid var(--dark-3); padding: 1.1rem 0.5rem; max-width: 900px; }
+@media (max-width: 900px) {
+  .crest-stage { aspect-ratio: auto; display: flex; flex-direction: column; gap: 0.8rem; }
+  .crest-img { position: static; width: min(260px, 70%); margin: 0 auto 1rem; }
+  .crest-lines, .crest-dot { display: none; }
+  .crest-card { position: static; transform: none; width: auto; }
+}
