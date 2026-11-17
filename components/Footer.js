@@ -56,7 +56,13 @@ export default function Footer() {
           </div>
         </div>
         <div style={{ borderTop: '1px solid var(--dark-3)', paddingTop: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
-          <p style={{ color: 'var(--grey)', fontSize: '0.8rem' }}>© {new Date().getFullYear()} KS Górnik Brzeszcze. {tr.copyright}</p>
+          <div>
+            <p style={{ color: 'var(--grey)', fontSize: '0.8rem' }}>© {new Date().getFullYear()} KS Górnik Brzeszcze. {tr.copyright}</p>
+            <p style={{ color: 'var(--grey)', fontSize: '0.8rem', marginTop: '0.35rem' }}>
+              {lang === 'en' ? 'Website by ' : 'Strona wykonana przez '}
+              <a href="https://www.webdogsports.marketing" target="_blank" rel="noopener noreferrer" translate="no" className="notranslate" style={{ color: 'var(--gold)', textDecoration: 'underline' }}>Webdog Sports Marketing</a>
+            </p>
+          </div>
           <p style={{ color: 'var(--grey)', fontSize: '0.8rem' }}>
             <Link href="/privacy" style={{ color: 'var(--grey)', textDecoration: 'underline' }}>{lang === 'en' ? 'Privacy policy' : 'Polityka prywatności'}</Link>
             {' · '}
