@@ -45,7 +45,6 @@ export default function Footer() {
             <p style={{ color: 'var(--grey)', fontSize: '0.85rem', lineHeight: 2 }}>
               ul. Ofiar Oświęcimia 68<br />32-620 Brzeszcze<br />
               {lang === 'en' ? 'Poland' : 'Polska'}<br />
-              Tel. 32 211 10 19<br />
               gornik1922brzeszcze@interia.pl
             </p>
             <div style={{ marginTop: '1rem' }}>

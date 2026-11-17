@@ -17,7 +17,7 @@ export const CLUB = {
   postcode: '32-620 Brzeszcze',
   stadiumName: 'Stadion KS Górnik',
   stadiumAddress: 'ul. Ofiar Oświęcimia 68, 32-620 Brzeszcze',
-  phone: '32 211 10 19',          // listed on RegioWyniki – please confirm
+  // phone: '32 211 10 19',   // hidden for now (listed on RegioWyniki, unconfirmed)
   facebook: 'https://www.facebook.com/gornikbrzeszcze',
   instagramEn: 'https://www.instagram.com/gornikbrzeszcze/',
   instagramPl: 'https://www.instagram.com/ksg_1922',

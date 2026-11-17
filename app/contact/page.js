@@ -13,7 +13,6 @@ const T = {
     details: [
       [null, 'Adres klubu', CLUB.address + '\n' + CLUB.postcode],
       [null, 'Stadion', CLUB.stadiumAddress],
-      [null, 'Telefon', CLUB.phone],
       [null, 'E-mail', CLUB.email],
     ],
     social: 'Media społecznościowe',
@@ -32,7 +31,6 @@ const T = {
     details: [
       [null, 'Club address', CLUB.address + '\n' + CLUB.postcode + ', Poland'],
       [null, 'Stadium', CLUB.stadiumAddress],
-      [null, 'Phone', CLUB.phone],
       [null, 'Email', CLUB.email],
     ],
     social: 'Social media',

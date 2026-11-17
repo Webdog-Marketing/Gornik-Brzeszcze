@@ -130,7 +130,6 @@ export const t = {
       details: [
         ['📍', 'Adres', 'ul. Ofiar Oświęcimia 68\n32-620 Brzeszcze, Polska'],
         ['📧', 'E-mail', 'kontakt@gornikbrzeszcze.pl'],
-        ['📱', 'Telefon', '+48 000 000 000'],
         ['🕐', 'Biuro czynne', 'Pon–Pt: 16:00–19:00\nSob: 10:00–14:00'],
       ],
       social_label: 'Media społecznościowe',
@@ -281,7 +280,6 @@ export const t = {
       details: [
         ['📍', 'Address', 'ul. Ofiar Oświęcimia 68\n32-620 Brzeszcze, Poland'],
         ['📧', 'Email', 'kontakt@gornikbrzeszcze.pl'],
-        ['📱', 'Phone', '+48 000 000 000'],
         ['🕐', 'Office hours', 'Mon–Fri: 16:00–19:00\nSat: 10:00–14:00'],
       ],
       social_label: 'Social media',
