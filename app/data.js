@@ -21,6 +21,7 @@ export const CLUB = {
   facebook: 'https://www.facebook.com/gornikbrzeszcze',
   instagramEn: 'https://www.instagram.com/gornikbrzeszcze/',
   instagramPl: 'https://www.instagram.com/ksg_1922',
+  tiktok: 'https://www.tiktok.com/@gornikbrzeszcze',
   linkedin: 'https://www.linkedin.com/company/ks-g%C3%B3rnik-brzeszcze/',
   email: 'gornik1922brzeszcze@interia.pl',
 };
